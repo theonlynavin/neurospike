@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/arithmetic/adder.v" \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/arithmetic/arithmetic.v" \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/trigonometry/clamp.v" \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/trigonometry/cordic.v" \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/arithmetic/multiplier.v" \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/oscillator.v" \
+"../../../../Neurospike.srcs/sources_1/imports/Neurospike/trigonometry/trigonometry.v" \
+"../../../../Neurospike.srcs/sources_1/new/testbench_oscillator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

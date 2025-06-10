@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 13 14:07:31 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : snn_rgb
+Top-level Entity Name : snn_rgb
+Family : Cyclone IV E
+Total logic elements : 1,092
+    Total combinational functions : 941
+    Dedicated logic registers : 646
+Total registers : 646
+Total pins : 63
+Total virtual pins : 0
+Total memory bits : 219
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

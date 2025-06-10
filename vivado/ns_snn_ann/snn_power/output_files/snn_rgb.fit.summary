@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Mar 13 14:07:57 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : snn_rgb
+Top-level Entity Name : snn_rgb
+Family : Cyclone IV E
+Device : EP4CE115F29I8L
+Timing Models : Final
+Total logic elements : 1,021 / 114,480 ( < 1 % )
+    Total combinational functions : 942 / 114,480 ( < 1 % )
+    Dedicated logic registers : 646 / 114,480 ( < 1 % )
+Total registers : 646
+Total pins : 63 / 529 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 219 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

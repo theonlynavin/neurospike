@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../src/ReLu.sv" \
+"../../../../../src/adder.sv" \
+"../../../../../src/counter.sv" \
+"../../../../../src/input_layer.sv" \
+"../../../../../src/multiplier.sv" \
+"../../../../../src/neural_network.sv" \
+"../../../../../src/neuron_inputlayer.sv" \
+"../../../../../src/register.sv" \
+"../../../../../src/softmax.sv" \
+"../../../../../src/test/tb_neuralnetwork.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

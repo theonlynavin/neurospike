@@ -1,0 +1,4 @@
+Running: xsim.dir/testbench_oscillator_behav/xsimk.exe -simmode gui -wdb testbench_oscillator_behav.wdb -simrunnum 0 -socket 55872
+Design successfully loaded
+Design Loading Memory Usage: 67072 KB (Peak: 67072 KB)
+Design Loading CPU Usage: 1140 ms

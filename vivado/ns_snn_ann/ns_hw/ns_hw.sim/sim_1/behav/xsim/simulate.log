@@ -1,0 +1,3011 @@
+Time resolution is 1 ps
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                 x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:         0 sum_out:                    x
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       254 sum_out:                 0
+counter_add:       255 sum_out:          91471440
+counter_add:       255 sum_out:          98194560
+counter_add:       255 sum_out:          67243536
+counter_add:       255 sum_out:          51502800
+counter_add:       255 sum_out:        -155569296
+counter_add:       255 sum_out:         103079616
+counter_add:       255 sum_out:        -135017520
+counter_add:       255 sum_out:         110222160
+counter_add:       255 sum_out:           -764832
+counter_add:       255 sum_out:        -116710896
+counter_add:       256 sum_out:         -20276272
+counter_add:       256 sum_out:         365342976
+counter_add:       256 sum_out:         205933072
+counter_add:       256 sum_out:          30926352
+counter_add:       256 sum_out:          24108656
+counter_add:       256 sum_out:         208988288
+counter_add:       256 sum_out:        -236189168
+counter_add:       256 sum_out:          21057552
+counter_add:       256 sum_out:          -6406496
+counter_add:       256 sum_out:         -65952368
+counter_add:       257 sum_out:        -166531888
+counter_add:       257 sum_out:         477304512
+counter_add:       257 sum_out:         228170768
+counter_add:       257 sum_out:         -44339696
+counter_add:       257 sum_out:        -264603088
+counter_add:       257 sum_out:         432796224
+counter_add:       257 sum_out:        -280516528
+counter_add:       257 sum_out:         -36395312
+counter_add:       257 sum_out:          53151712
+counter_add:       257 sum_out:          -5670448
+counter_add:       258 sum_out:          22702352
+counter_add:       258 sum_out:         629612992
+counter_add:       258 sum_out:         622495120
+counter_add:       258 sum_out:          27587408
+counter_add:       258 sum_out:         -86043600
+counter_add:       258 sum_out:         436003584
+counter_add:       258 sum_out:        -282950832
+counter_add:       258 sum_out:          16567248
+counter_add:       258 sum_out:         -69336544
+counter_add:       258 sum_out:         -89785520
+counter_add:       259 sum_out:         139351568
+counter_add:       259 sum_out:         911433024
+counter_add:       259 sum_out:         894956240
+counter_add:       259 sum_out:         252349328
+counter_add:       259 sum_out:        -244997072
+counter_add:       259 sum_out:         520776576
+counter_add:       259 sum_out:         -90509232
+counter_add:       259 sum_out:         -25013296
+counter_add:       259 sum_out:         129782944
+counter_add:       259 sum_out:          52851536
+counter_add:       260 sum_out:         299670224
+counter_add:       260 sum_out:        1249751936
+counter_add:       260 sum_out:        1020799888
+counter_add:       260 sum_out:         227183888
+counter_add:       260 sum_out:        -210752336
+counter_add:       260 sum_out:         748153728
+counter_add:       260 sum_out:        -178259312
+counter_add:       260 sum_out:        -177584944
+counter_add:       260 sum_out:         273801632
+counter_add:       260 sum_out:         216706512
+counter_add:       261 sum_out:          15185616
+counter_add:       261 sum_out:        1344196352
+counter_add:       261 sum_out:        1372507472
+counter_add:       261 sum_out:         344375888
+counter_add:       261 sum_out:         -54792400
+counter_add:       261 sum_out:         996321152
+counter_add:       261 sum_out:        -102878128
+counter_add:       261 sum_out:        -358118192
+counter_add:       261 sum_out:         217829088
+counter_add:       261 sum_out:         170191568
+counter_add:       262 sum_out:        -143652720
+counter_add:       262 sum_out:        1648862656
+counter_add:       262 sum_out:        1482593936
+counter_add:       262 sum_out:         207495632
+counter_add:       262 sum_out:        -219552016
+counter_add:       262 sum_out:        1153991680
+counter_add:       262 sum_out:        -310731504
+counter_add:       262 sum_out:        -161104048
+counter_add:       262 sum_out:           5074208
+counter_add:       262 sum_out:         183991440
+counter_add:       263 sum_out:        -125181616
+counter_add:       263 sum_out:        1601278592
+counter_add:       263 sum_out:        1732077200
+counter_add:       263 sum_out:         322993488
+counter_add:       263 sum_out:        -255885648
+counter_add:       263 sum_out:        1227810304
+counter_add:       263 sum_out:        -424387184
+counter_add:       263 sum_out:        -373381936
+counter_add:       263 sum_out:          43299360
+counter_add:       263 sum_out:          38607568
+counter_add:       264 sum_out:        -232554160
+counter_add:       264 sum_out:        1576372208
+counter_add:       264 sum_out:        1684040816
+counter_add:       264 sum_out:         431945040
+counter_add:       264 sum_out:        -306204192
+counter_add:       264 sum_out:        1294202656
+counter_add:       264 sum_out:        -376659200
+counter_add:       264 sum_out:        -477584128
+counter_add:       264 sum_out:         131464752
+counter_add:       264 sum_out:           7187776
+counter_add:       265 sum_out:        -233223388
+counter_add:       265 sum_out:        1580603456
+counter_add:       265 sum_out:        1686968560
+counter_add:       265 sum_out:         429956888
+counter_add:       265 sum_out:        -311149900
+counter_add:       265 sum_out:        1286841148
+counter_add:       265 sum_out:        -374422272
+counter_add:       265 sum_out:        -497737040
+counter_add:       265 sum_out:         140404240
+counter_add:       265 sum_out:           1212012
+counter_add:       281 sum_out:        -233223388
+counter_add:       281 sum_out:        1580603456
+counter_add:       281 sum_out:        1686968560
+counter_add:       281 sum_out:         429956888
+counter_add:       281 sum_out:        -311149900
+counter_add:       281 sum_out:        1286841148
+counter_add:       281 sum_out:        -374422272
+counter_add:       281 sum_out:        -497737040
+counter_add:       281 sum_out:         140404240
+counter_add:       281 sum_out:           1212012
+counter_add:       282 sum_out:         -20602148
+counter_add:       282 sum_out:        1816143956
+counter_add:       282 sum_out:        1715834800
+counter_add:       282 sum_out:         227813024
+counter_add:       282 sum_out:        -398791012
+counter_add:       282 sum_out:        1433310588
+counter_add:       282 sum_out:        -162589508
+counter_add:       282 sum_out:        -691648680
+counter_add:       282 sum_out:         209776764
+counter_add:       282 sum_out:         -62961916
+counter_add:       283 sum_out:         506929884
+counter_add:       283 sum_out:        1561602132
+counter_add:       283 sum_out:        1846611888
+counter_add:       283 sum_out:        -155244896
+counter_add:       283 sum_out:        -628527460
+counter_add:       283 sum_out:        1805915516
+counter_add:       283 sum_out:        -235760452
+counter_add:       283 sum_out:        -893368488
+counter_add:       283 sum_out:          -1970052
+counter_add:       283 sum_out:         515294980
+counter_add:       284 sum_out:         366617308
+counter_add:       284 sum_out:        2128816212
+counter_add:       284 sum_out:        2136117168
+counter_add:       284 sum_out:        -402577760
+counter_add:       284 sum_out:        -206573924
+counter_add:       284 sum_out:        2228786556
+counter_add:       284 sum_out:         -50293572
+counter_add:       284 sum_out:        -741685416
+counter_add:       284 sum_out:        -496504708
+counter_add:       284 sum_out:         986892036
+counter_add:       285 sum_out:         669098716
+counter_add:       285 sum_out:        2006952020
+counter_add:       285 sum_out:        2007240624
+counter_add:       285 sum_out:        -754342240
+counter_add:       285 sum_out:        -590123364
+counter_add:       285 sum_out:        1835373948
+counter_add:       285 sum_out:        -324954948
+counter_add:       285 sum_out:        -338442408
+counter_add:       285 sum_out:        -424742788
+counter_add:       285 sum_out:        1040697092
+counter_add:       286 sum_out:         171746012
+counter_add:       286 sum_out:        1975363668
+counter_add:       286 sum_out:        2355302320
+counter_add:       286 sum_out:        -970545504
+counter_add:       286 sum_out:        -846795108
+counter_add:       286 sum_out:        2037323132
+counter_add:       286 sum_out:        -639134532
+counter_add:       286 sum_out:        -232929448
+counter_add:       286 sum_out:        -922980228
+counter_add:       286 sum_out:        1192019716
+counter_add:       287 sum_out:         492643036
+counter_add:       287 sum_out:        1615079508
+counter_add:       287 sum_out:        2848395184
+counter_add:       287 sum_out:        -720918880
+counter_add:       287 sum_out:        -529568100
+counter_add:       287 sum_out:        2334561660
+counter_add:       287 sum_out:        -383085380
+counter_add:       287 sum_out:        -174241960
+counter_add:       287 sum_out:        -991530884
+counter_add:       287 sum_out:         751945476
+counter_add:       288 sum_out:         268903132
+counter_add:       288 sum_out:        2037000276
+counter_add:       288 sum_out:        3421048752
+counter_add:       288 sum_out:        -919034208
+counter_add:       288 sum_out:        -548114788
+counter_add:       288 sum_out:        1902548348
+counter_add:       288 sum_out:          25662652
+counter_add:       288 sum_out:        -504445096
+counter_add:       288 sum_out:        -649891716
+counter_add:       288 sum_out:         108185348
+counter_add:       289 sum_out:         119251676
+counter_add:       289 sum_out:        2143791188
+counter_add:       289 sum_out:        3472363440
+counter_add:       289 sum_out:       -1010194784
+counter_add:       289 sum_out:        -523538788
+counter_add:       289 sum_out:        1836717436
+counter_add:       289 sum_out:         178459836
+counter_add:       289 sum_out:        -763738280
+counter_add:       289 sum_out:        -766611332
+counter_add:       289 sum_out:        -271071484
+counter_add:       290 sum_out:          50668252
+counter_add:       290 sum_out:        2279417940
+counter_add:       290 sum_out:        3643183024
+counter_add:       290 sum_out:        -678287712
+counter_add:       290 sum_out:        -211095908
+counter_add:       290 sum_out:        1770624380
+counter_add:       290 sum_out:         322016444
+counter_add:       290 sum_out:        -820852904
+counter_add:       290 sum_out:        -697208708
+counter_add:       290 sum_out:         -94320892
+counter_add:       291 sum_out:         428909276
+counter_add:       291 sum_out:        2646976596
+counter_add:       291 sum_out:        3698069424
+counter_add:       291 sum_out:       -1030445408
+counter_add:       291 sum_out:          40201884
+counter_add:       291 sum_out:        1464014204
+counter_add:       291 sum_out:           3183804
+counter_add:       291 sum_out:       -1225111720
+counter_add:       291 sum_out:        -506990468
+counter_add:       291 sum_out:          32786180
+counter_add:       292 sum_out:         -91577636
+counter_add:       292 sum_out:        3017517140
+counter_add:       292 sum_out:        4044427184
+counter_add:       292 sum_out:       -1315199328
+counter_add:       292 sum_out:         381709980
+counter_add:       292 sum_out:        1054512508
+counter_add:       292 sum_out:         358552764
+counter_add:       292 sum_out:       -1338685608
+counter_add:       292 sum_out:        -130879364
+counter_add:       292 sum_out:        -183679228
+counter_add:       293 sum_out:        -101955296
+counter_add:       293 sum_out:        3073661360
+counter_add:       293 sum_out:        3958923284
+counter_add:       293 sum_out:       -1473932808
+counter_add:       293 sum_out:         534645540
+counter_add:       293 sum_out:        1281433228
+counter_add:       293 sum_out:         585905244
+counter_add:       293 sum_out:       -1271253948
+counter_add:       293 sum_out:        -120131624
+counter_add:       293 sum_out:        -142692868
+counter_add:       309 sum_out:        -101955296
+counter_add:       309 sum_out:        3073661360
+counter_add:       309 sum_out:        3958923284
+counter_add:       309 sum_out:       -1473932808
+counter_add:       309 sum_out:         534645540
+counter_add:       309 sum_out:        1281433228
+counter_add:       309 sum_out:         585905244
+counter_add:       309 sum_out:       -1271253948
+counter_add:       309 sum_out:        -120131624
+counter_add:       309 sum_out:        -142692868
+counter_add:       310 sum_out:        -352576556
+counter_add:       310 sum_out:        3163729580
+counter_add:       310 sum_out:        3821145584
+counter_add:       310 sum_out:       -1576460388
+counter_add:       310 sum_out:         338518560
+counter_add:       310 sum_out:        1095976888
+counter_add:       310 sum_out:         491704464
+counter_add:       310 sum_out:       -1324360428
+counter_add:       310 sum_out:        -337183544
+counter_add:       310 sum_out:        -299498848
+counter_add:       311 sum_out:        -667116588
+counter_add:       311 sum_out:        3370102444
+counter_add:       311 sum_out:        3741519344
+counter_add:       311 sum_out:       -1974591588
+counter_add:       311 sum_out:         215900704
+counter_add:       311 sum_out:         706267064
+counter_add:       311 sum_out:         331567248
+counter_add:       311 sum_out:       -1667375852
+counter_add:       311 sum_out:        -521700152
+counter_add:       311 sum_out:        -389840224
+counter_add:       312 sum_out:        -808661836
+counter_add:       312 sum_out:        3677319692
+counter_add:       312 sum_out:        3430154160
+counter_add:       312 sum_out:       -2393140420
+counter_add:       312 sum_out:         352733504
+counter_add:       312 sum_out:         720625304
+counter_add:       312 sum_out:         257763440
+counter_add:       312 sum_out:       -1694595148
+counter_add:       312 sum_out:        -486945848
+counter_add:       312 sum_out:        -305114336
+counter_add:       313 sum_out:        -833416076
+counter_add:       313 sum_out:        4068584716
+counter_add:       313 sum_out:        3343358064
+counter_add:       313 sum_out:       -2465807684
+counter_add:       313 sum_out:         389873088
+counter_add:       313 sum_out:         659192024
+counter_add:       313 sum_out:         -23086160
+counter_add:       313 sum_out:       -1636731084
+counter_add:       313 sum_out:        -327597624
+counter_add:       313 sum_out:        -522820064
+counter_add:       314 sum_out:       -1029476236
+counter_add:       314 sum_out:        3999207052
+counter_add:       314 sum_out:        3501620720
+counter_add:       314 sum_out:       -2742035396
+counter_add:       314 sum_out:         631691584
+counter_add:       314 sum_out:         632283096
+counter_add:       314 sum_out:        -187418128
+counter_add:       314 sum_out:       -1702095436
+counter_add:       314 sum_out:        -316380088
+counter_add:       314 sum_out:        -383291680
+counter_add:       315 sum_out:       -1147194572
+counter_add:       315 sum_out:        4187026764
+counter_add:       315 sum_out:        3501719408
+counter_add:       315 sum_out:       -2496483204
+counter_add:       315 sum_out:         643978240
+counter_add:       315 sum_out:         699210008
+counter_add:       315 sum_out:        -398330832
+counter_add:       315 sum_out:       -1540921484
+counter_add:       315 sum_out:        -111207736
+counter_add:       315 sum_out:        -295821216
+counter_add:       316 sum_out:        -961940748
+counter_add:       316 sum_out:        4108471116
+counter_add:       316 sum_out:        3855795504
+counter_add:       316 sum_out:       -2419194052
+counter_add:       316 sum_out:         687006208
+counter_add:       316 sum_out:         519203096
+counter_add:       316 sum_out:        -496870800
+counter_add:       316 sum_out:       -1658146380
+counter_add:       316 sum_out:        -131340088
+counter_add:       316 sum_out:        -336053024
+counter_add:       317 sum_out:       -1007534604
+counter_add:       317 sum_out:        4099605644
+counter_add:       317 sum_out:        4260745264
+counter_add:       317 sum_out:       -2438257284
+counter_add:       317 sum_out:         979254272
+counter_add:       317 sum_out:         645474392
+counter_add:       317 sum_out:        -666104272
+counter_add:       317 sum_out:       -1714694604
+counter_add:       317 sum_out:          71710472
+counter_add:       317 sum_out:        -471337824
+counter_add:       318 sum_out:        -827626380
+counter_add:       318 sum_out:        4337822028
+counter_add:       318 sum_out:        4623226288
+counter_add:       318 sum_out:       -2281622980
+counter_add:       318 sum_out:         759081344
+counter_add:       318 sum_out:         778472920
+counter_add:       318 sum_out:        -840107664
+counter_add:       318 sum_out:       -1846245708
+counter_add:       318 sum_out:         243049288
+counter_add:       318 sum_out:        -315854880
+counter_add:       319 sum_out:        -805512236
+counter_add:       319 sum_out:        4002526444
+counter_add:       319 sum_out:        4525074832
+counter_add:       319 sum_out:       -1992101956
+counter_add:       319 sum_out:        1082988512
+counter_add:       319 sum_out:         484656696
+counter_add:       319 sum_out:        -438592368
+counter_add:       319 sum_out:       -2239980556
+counter_add:       319 sum_out:         481764232
+counter_add:       319 sum_out:        -668871232
+counter_add:       320 sum_out:        -730276908
+counter_add:       320 sum_out:        3992401132
+counter_add:       320 sum_out:        4343671184
+counter_add:       320 sum_out:       -1979912260
+counter_add:       320 sum_out:         879663072
+counter_add:       320 sum_out:         922895928
+counter_add:       320 sum_out:        -360407920
+counter_add:       320 sum_out:       -2672518156
+counter_add:       320 sum_out:         888382344
+counter_add:       320 sum_out:        -336472640
+counter_add:       321 sum_out:        -610140716
+counter_add:       321 sum_out:        4137850796
+counter_add:       321 sum_out:        4480271824
+counter_add:       321 sum_out:       -2093387012
+counter_add:       321 sum_out:        1030030688
+counter_add:       321 sum_out:         759188984
+counter_add:       321 sum_out:        -276325744
+counter_add:       321 sum_out:       -2837787660
+counter_add:       321 sum_out:         756683208
+counter_add:       321 sum_out:        -556662016
+counter_add:       337 sum_out:        -610140716
+counter_add:       337 sum_out:        4137850796
+counter_add:       337 sum_out:        4480271824
+counter_add:       337 sum_out:       -2093387012
+counter_add:       337 sum_out:        1030030688
+counter_add:       337 sum_out:         759188984
+counter_add:       337 sum_out:        -276325744
+counter_add:       337 sum_out:       -2837787660
+counter_add:       337 sum_out:         756683208
+counter_add:       337 sum_out:        -556662016
+counter_add:       338 sum_out:        -608787868
+counter_add:       338 sum_out:        4148873012
+counter_add:       338 sum_out:        4495070912
+counter_add:       338 sum_out:       -2131225636
+counter_add:       338 sum_out:         999593664
+counter_add:       338 sum_out:         766121816
+counter_add:       338 sum_out:        -297856176
+counter_add:       338 sum_out:       -2815420436
+counter_add:       338 sum_out:         777987480
+counter_add:       338 sum_out:        -555364680
+counter_add:       339 sum_out:        -642341788
+counter_add:       339 sum_out:        4101453428
+counter_add:       339 sum_out:        4472734528
+counter_add:       339 sum_out:       -1959409828
+counter_add:       339 sum_out:         939657152
+counter_add:       339 sum_out:         524451352
+counter_add:       339 sum_out:        -545990704
+counter_add:       339 sum_out:       -2553058388
+counter_add:       339 sum_out:         938700888
+counter_add:       339 sum_out:        -463601288
+counter_add:       340 sum_out:        -579777708
+counter_add:       340 sum_out:        4200223668
+counter_add:       340 sum_out:        4468569072
+counter_add:       340 sum_out:       -1992836276
+counter_add:       340 sum_out:         929759568
+counter_add:       340 sum_out:         541713528
+counter_add:       340 sum_out:        -556817600
+counter_add:       340 sum_out:       -2561048004
+counter_add:       340 sum_out:         929485896
+counter_add:       340 sum_out:        -511370392
+counter_add:       346 sum_out:        -579777708
+counter_add:       346 sum_out:        4200223668
+counter_add:       346 sum_out:        4468569072
+counter_add:       346 sum_out:       -1992836276
+counter_add:       346 sum_out:         929759568
+counter_add:       346 sum_out:         541713528
+counter_add:       346 sum_out:        -556817600
+counter_add:       346 sum_out:       -2561048004
+counter_add:       346 sum_out:         929485896
+counter_add:       346 sum_out:        -511370392
+counter_add:       347 sum_out:        -396316716
+counter_add:       347 sum_out:        4195174132
+counter_add:       347 sum_out:        4778367152
+counter_add:       347 sum_out:       -2033084532
+counter_add:       347 sum_out:         781135440
+counter_add:       347 sum_out:         489672056
+counter_add:       347 sum_out:        -578298688
+counter_add:       347 sum_out:       -2411502788
+counter_add:       347 sum_out:         666646856
+counter_add:       347 sum_out:        -451154264
+counter_add:       348 sum_out:        -482267180
+counter_add:       348 sum_out:        4154738420
+counter_add:       348 sum_out:        5197371568
+counter_add:       348 sum_out:       -1743186036
+counter_add:       348 sum_out:         757345872
+counter_add:       348 sum_out:         261868920
+counter_add:       348 sum_out:        -201040704
+counter_add:       348 sum_out:       -2878414020
+counter_add:       348 sum_out:         760887624
+counter_add:       348 sum_out:        -288166232
+counter_add:       349 sum_out:        -511067628
+counter_add:       349 sum_out:        4062695412
+counter_add:       349 sum_out:        4982741616
+counter_add:       349 sum_out:       -1895527412
+counter_add:       349 sum_out:         686553680
+counter_add:       349 sum_out:         125136696
+counter_add:       349 sum_out:        -292935680
+counter_add:       349 sum_out:       -2738638916
+counter_add:       349 sum_out:         508706888
+counter_add:       349 sum_out:        -385982488
+counter_add:       374 sum_out:        -511067628
+counter_add:       374 sum_out:        4062695412
+counter_add:       374 sum_out:        4982741616
+counter_add:       374 sum_out:       -1895527412
+counter_add:       374 sum_out:         686553680
+counter_add:       374 sum_out:         125136696
+counter_add:       374 sum_out:        -292935680
+counter_add:       374 sum_out:       -2738638916
+counter_add:       374 sum_out:         508706888
+counter_add:       374 sum_out:        -385982488
+counter_add:       375 sum_out:        -440822412
+counter_add:       375 sum_out:        4023139060
+counter_add:       375 sum_out:        5084717728
+counter_add:       375 sum_out:       -2112065748
+counter_add:       375 sum_out:         352143136
+counter_add:       375 sum_out:        -267668504
+counter_add:       375 sum_out:        -136222240
+counter_add:       375 sum_out:       -2634537876
+counter_add:       375 sum_out:         246339576
+counter_add:       375 sum_out:        -207795016
+counter_add:       376 sum_out:        -479554188
+counter_add:       376 sum_out:        3904223988
+counter_add:       376 sum_out:        5460337312
+counter_add:       376 sum_out:       -2442399956
+counter_add:       376 sum_out:         437634848
+counter_add:       376 sum_out:        -251907096
+counter_add:       376 sum_out:         446261728
+counter_add:       376 sum_out:       -3106069396
+counter_add:       376 sum_out:         314890232
+counter_add:       376 sum_out:         213339320
+counter_add:       377 sum_out:        -550774028
+counter_add:       377 sum_out:        3996908468
+counter_add:       377 sum_out:        5739969760
+counter_add:       377 sum_out:       -2404174804
+counter_add:       377 sum_out:         141340576
+counter_add:       377 sum_out:        -127675352
+counter_add:       377 sum_out:         340533984
+counter_add:       377 sum_out:       -3035491028
+counter_add:       377 sum_out:         397492088
+counter_add:       377 sum_out:          39878712
+counter_add:       400 sum_out:        -550774028
+counter_add:       400 sum_out:        3996908468
+counter_add:       400 sum_out:        5739969760
+counter_add:       400 sum_out:       -2404174804
+counter_add:       400 sum_out:         141340576
+counter_add:       400 sum_out:        -127675352
+counter_add:       400 sum_out:         340533984
+counter_add:       400 sum_out:       -3035491028
+counter_add:       400 sum_out:         397492088
+counter_add:       400 sum_out:          39878712
+counter_add:       401 sum_out:        -406751228
+counter_add:       401 sum_out:        3887253764
+counter_add:       401 sum_out:        5762297920
+counter_add:       401 sum_out:       -2409898708
+counter_add:       401 sum_out:         173340160
+counter_add:       401 sum_out:        -151076744
+counter_add:       401 sum_out:         324719232
+counter_add:       401 sum_out:       -3183634052
+counter_add:       401 sum_out:         289996184
+counter_add:       401 sum_out:         288190056
+counter_add:       402 sum_out:         -98049128
+counter_add:       402 sum_out:        4122390984
+counter_add:       402 sum_out:        5843974680
+counter_add:       402 sum_out:       -2311526068
+counter_add:       402 sum_out:         -33620080
+counter_add:       402 sum_out:        -488385024
+counter_add:       402 sum_out:         642219932
+counter_add:       402 sum_out:       -2909847372
+counter_add:       402 sum_out:         377638824
+counter_add:       402 sum_out:         664019036
+counter_add:       403 sum_out:         318628760
+counter_add:       403 sum_out:        3803197896
+counter_add:       403 sum_out:        6124272152
+counter_add:       403 sum_out:       -1776522932
+counter_add:       403 sum_out:        -340230256
+counter_add:       403 sum_out:        -211626496
+counter_add:       403 sum_out:         460554140
+counter_add:       403 sum_out:       -3247030092
+counter_add:       403 sum_out:        -133181528
+counter_add:       403 sum_out:         288890972
+counter_add:       404 sum_out:         829154200
+counter_add:       404 sum_out:        3922833864
+counter_add:       404 sum_out:        6367476248
+counter_add:       404 sum_out:       -1333860020
+counter_add:       404 sum_out:        -908984432
+counter_add:       404 sum_out:         -99265024
+counter_add:       404 sum_out:         265650076
+counter_add:       404 sum_out:       -3208200012
+counter_add:       404 sum_out:         304140200
+counter_add:       404 sum_out:         568762460
+counter_add:       405 sum_out:        1042682136
+counter_add:       405 sum_out:        4077527304
+counter_add:       405 sum_out:        6283755928
+counter_add:       405 sum_out:       -1451331636
+counter_add:       405 sum_out:       -1011800880
+counter_add:       405 sum_out:         -45562304
+counter_add:       405 sum_out:         157422236
+counter_add:       405 sum_out:       -3229697548
+counter_add:       405 sum_out:         336542760
+counter_add:       405 sum_out:         416174364
+counter_add:       426 sum_out:        1042682136
+counter_add:       426 sum_out:        4077527304
+counter_add:       426 sum_out:        6283755928
+counter_add:       426 sum_out:       -1451331636
+counter_add:       426 sum_out:       -1011800880
+counter_add:       426 sum_out:         -45562304
+counter_add:       426 sum_out:         157422236
+counter_add:       426 sum_out:       -3229697548
+counter_add:       426 sum_out:         336542760
+counter_add:       426 sum_out:         416174364
+counter_add:       427 sum_out:        1015950024
+counter_add:       427 sum_out:        3892178904
+counter_add:       427 sum_out:        6416071864
+counter_add:       427 sum_out:       -1382299380
+counter_add:       427 sum_out:       -1136098416
+counter_add:       427 sum_out:          17721376
+counter_add:       427 sum_out:         254210492
+counter_add:       427 sum_out:       -3149538220
+counter_add:       427 sum_out:         405352968
+counter_add:       427 sum_out:         602262924
+counter_add:       428 sum_out:         775619484
+counter_add:       428 sum_out:        3960507544
+counter_add:       428 sum_out:        6491932964
+counter_add:       428 sum_out:       -1503183560
+counter_add:       428 sum_out:       -1106633836
+counter_add:       428 sum_out:         -58504544
+counter_add:       428 sum_out:         -68590828
+counter_add:       428 sum_out:       -3318728860
+counter_add:       428 sum_out:         162812048
+counter_add:       428 sum_out:        1065605784
+counter_add:       429 sum_out:         376046492
+counter_add:       429 sum_out:        4023848088
+counter_add:       429 sum_out:        6865717540
+counter_add:       429 sum_out:       -1449312968
+counter_add:       429 sum_out:       -1016030316
+counter_add:       429 sum_out:        -529249632
+counter_add:       429 sum_out:        -212278508
+counter_add:       429 sum_out:       -2882554012
+counter_add:       429 sum_out:         -74854256
+counter_add:       429 sum_out:        1571805848
+counter_add:       430 sum_out:         441811868
+counter_add:       430 sum_out:        3987704984
+counter_add:       430 sum_out:        6719539492
+counter_add:       430 sum_out:        -968245960
+counter_add:       430 sum_out:       -1222993004
+counter_add:       430 sum_out:        -236959072
+counter_add:       430 sum_out:         129327892
+counter_add:       430 sum_out:       -3104786588
+counter_add:       430 sum_out:         142463120
+counter_add:       430 sum_out:        2089900696
+counter_add:       431 sum_out:         858620828
+counter_add:       431 sum_out:        3832253592
+counter_add:       431 sum_out:        6534007076
+counter_add:       431 sum_out:       -1301299912
+counter_add:       431 sum_out:       -1069016172
+counter_add:       431 sum_out:        -881309024
+counter_add:       431 sum_out:         -71343340
+counter_add:       431 sum_out:       -3324037276
+counter_add:       431 sum_out:         329830544
+counter_add:       431 sum_out:        2606881432
+counter_add:       432 sum_out:         674000860
+counter_add:       432 sum_out:        4157289784
+counter_add:       432 sum_out:        6913997284
+counter_add:       432 sum_out:       -1342558376
+counter_add:       432 sum_out:       -1032371980
+counter_add:       432 sum_out:       -1019859904
+counter_add:       432 sum_out:          47940500
+counter_add:       432 sum_out:       -2867347068
+counter_add:       432 sum_out:         496337040
+counter_add:       432 sum_out:        2834968824
+counter_add:       433 sum_out:         634270716
+counter_add:       433 sum_out:        4188331272
+counter_add:       433 sum_out:        6915703764
+counter_add:       433 sum_out:       -1366218824
+counter_add:       433 sum_out:       -1027725420
+counter_add:       433 sum_out:       -1003124064
+counter_add:       433 sum_out:          15805220
+counter_add:       433 sum_out:       -2874263452
+counter_add:       433 sum_out:         427592624
+counter_add:       433 sum_out:        2860907320
+counter_add:       452 sum_out:         634270716
+counter_add:       452 sum_out:        4188331272
+counter_add:       452 sum_out:        6915703764
+counter_add:       452 sum_out:       -1366218824
+counter_add:       452 sum_out:       -1027725420
+counter_add:       452 sum_out:       -1003124064
+counter_add:       452 sum_out:          15805220
+counter_add:       452 sum_out:       -2874263452
+counter_add:       452 sum_out:         427592624
+counter_add:       452 sum_out:        2860907320
+counter_add:       453 sum_out:         662421468
+counter_add:       453 sum_out:        4063774680
+counter_add:       453 sum_out:        6690991188
+counter_add:       453 sum_out:       -1245671432
+counter_add:       453 sum_out:        -834555996
+counter_add:       453 sum_out:        -839227968
+counter_add:       453 sum_out:         169006004
+counter_add:       453 sum_out:       -2928504844
+counter_add:       453 sum_out:         494305712
+counter_add:       453 sum_out:        2950034920
+counter_add:       454 sum_out:         440482148
+counter_add:       454 sum_out:        3787477180
+counter_add:       454 sum_out:        6883272788
+counter_add:       454 sum_out:        -949394672
+counter_add:       454 sum_out:        -891940036
+counter_add:       454 sum_out:        -835729988
+counter_add:       454 sum_out:         350815124
+counter_add:       454 sum_out:       -2778263384
+counter_add:       454 sum_out:         450827752
+counter_add:       454 sum_out:        3165471860
+counter_add:       455 sum_out:         546060644
+counter_add:       455 sum_out:        3725152444
+counter_add:       455 sum_out:        7066249300
+counter_add:       455 sum_out:       -1176673520
+counter_add:       455 sum_out:       -1256680644
+counter_add:       455 sum_out:        -888289860
+counter_add:       455 sum_out:         115966868
+counter_add:       455 sum_out:       -3074191192
+counter_add:       455 sum_out:         -68413976
+counter_add:       455 sum_out:        3123561588
+counter_add:       456 sum_out:          33274212
+counter_add:       456 sum_out:        3812479164
+counter_add:       456 sum_out:        6976563284
+counter_add:       456 sum_out:        -972725488
+counter_add:       456 sum_out:       -1692986564
+counter_add:       456 sum_out:        -508672580
+counter_add:       456 sum_out:          -7830636
+counter_add:       456 sum_out:       -2642800472
+counter_add:       456 sum_out:        -487615000
+counter_add:       456 sum_out:        3554198644
+counter_add:       457 sum_out:        -313149084
+counter_add:       457 sum_out:        3997323452
+counter_add:       457 sum_out:        6703704148
+counter_add:       457 sum_out:       -1369644272
+counter_add:       457 sum_out:       -1966763204
+counter_add:       457 sum_out:        -621296196
+counter_add:       457 sum_out:         -24869996
+counter_add:       457 sum_out:       -2071621464
+counter_add:       457 sum_out:        -406448664
+counter_add:       457 sum_out:        3961865332
+counter_add:       458 sum_out:        -188724732
+counter_add:       458 sum_out:        4451721644
+counter_add:       458 sum_out:        7023304516
+counter_add:       458 sum_out:        -940606640
+counter_add:       458 sum_out:       -1695906692
+counter_add:       458 sum_out:       -1187939940
+counter_add:       458 sum_out:        -377195516
+counter_add:       458 sum_out:       -1856157000
+counter_add:       458 sum_out:        -931684488
+counter_add:       458 sum_out:        4427439364
+counter_add:       459 sum_out:        -313075196
+counter_add:       459 sum_out:        4364946948
+counter_add:       459 sum_out:        7154039044
+counter_add:       459 sum_out:        -661182404
+counter_add:       459 sum_out:       -1827074920
+counter_add:       459 sum_out:       -1338971628
+counter_add:       459 sum_out:        -361859884
+counter_add:       459 sum_out:       -1940329496
+counter_add:       459 sum_out:        -727706704
+counter_add:       459 sum_out:        4609124968
+counter_add:       460 sum_out:        -317351676
+counter_add:       460 sum_out:        4407214196
+counter_add:       460 sum_out:        7124847956
+counter_add:       460 sum_out:        -696854004
+counter_add:       460 sum_out:       -1829217272
+counter_add:       460 sum_out:       -1377459948
+counter_add:       460 sum_out:        -414501708
+counter_add:       460 sum_out:       -1970400552
+counter_add:       460 sum_out:        -741823200
+counter_add:       460 sum_out:        4592528936
+counter_add:       479 sum_out:        -317351676
+counter_add:       479 sum_out:        4407214196
+counter_add:       479 sum_out:        7124847956
+counter_add:       479 sum_out:        -696854004
+counter_add:       479 sum_out:       -1829217272
+counter_add:       479 sum_out:       -1377459948
+counter_add:       479 sum_out:        -414501708
+counter_add:       479 sum_out:       -1970400552
+counter_add:       479 sum_out:        -741823200
+counter_add:       479 sum_out:        4592528936
+counter_add:       480 sum_out:        -200147340
+counter_add:       480 sum_out:        4513390148
+counter_add:       480 sum_out:        7043479700
+counter_add:       480 sum_out:        -937307316
+counter_add:       480 sum_out:       -1758643016
+counter_add:       480 sum_out:       -1471484940
+counter_add:       480 sum_out:        -466806348
+counter_add:       480 sum_out:       -1844770728
+counter_add:       480 sum_out:        -891483552
+counter_add:       480 sum_out:        4537325336
+counter_add:       481 sum_out:        -652575116
+counter_add:       481 sum_out:        4765933124
+counter_add:       481 sum_out:        7013824660
+counter_add:       481 sum_out:        -673688756
+counter_add:       481 sum_out:       -1500889928
+counter_add:       481 sum_out:       -1210717196
+counter_add:       481 sum_out:        -617899596
+counter_add:       481 sum_out:       -1410660264
+counter_add:       481 sum_out:       -1277326752
+counter_add:       481 sum_out:        5207070488
+counter_add:       482 sum_out:        -781517196
+counter_add:       482 sum_out:        4068433476
+counter_add:       482 sum_out:        7626094740
+counter_add:       482 sum_out:       -1249258676
+counter_add:       482 sum_out:       -1551483720
+counter_add:       482 sum_out:        -778474508
+counter_add:       482 sum_out:        -402777676
+counter_add:       482 sum_out:       -1012037544
+counter_add:       482 sum_out:       -1585640864
+counter_add:       482 sum_out:        5152282392
+counter_add:       483 sum_out:       -1032225164
+counter_add:       483 sum_out:        3465633348
+counter_add:       483 sum_out:        7391017108
+counter_add:       483 sum_out:       -1535126708
+counter_add:       483 sum_out:       -1539851080
+counter_add:       483 sum_out:       -1260590092
+counter_add:       483 sum_out:        -692479564
+counter_add:       483 sum_out:        -570357672
+counter_add:       483 sum_out:       -1898739104
+counter_add:       483 sum_out:        5541107480
+counter_add:       484 sum_out:       -1052148108
+counter_add:       484 sum_out:        2886524484
+counter_add:       484 sum_out:        7258568852
+counter_add:       484 sum_out:       -1491807412
+counter_add:       484 sum_out:        -995607368
+counter_add:       484 sum_out:       -1624937484
+counter_add:       484 sum_out:        -121333324
+counter_add:       484 sum_out:        -950532008
+counter_add:       484 sum_out:       -1677456800
+counter_add:       484 sum_out:        5827663640
+counter_add:       485 sum_out:       -1048773004
+counter_add:       485 sum_out:        2500320836
+counter_add:       485 sum_out:        7321680020
+counter_add:       485 sum_out:       -1176841396
+counter_add:       485 sum_out:       -1296221000
+counter_add:       485 sum_out:       -2121569292
+counter_add:       485 sum_out:         465770932
+counter_add:       485 sum_out:       -1170601896
+counter_add:       485 sum_out:       -1905292704
+counter_add:       485 sum_out:        6117037848
+counter_add:       486 sum_out:        -886145420
+counter_add:       486 sum_out:        2907823684
+counter_add:       486 sum_out:        7384070292
+counter_add:       486 sum_out:       -1148824756
+counter_add:       486 sum_out:       -1670529864
+counter_add:       486 sum_out:       -2135561228
+counter_add:       486 sum_out:         749640116
+counter_add:       486 sum_out:        -886077352
+counter_add:       486 sum_out:       -2120775072
+counter_add:       486 sum_out:        6595057432
+counter_add:       487 sum_out:       -1091983052
+counter_add:       487 sum_out:        2925132052
+counter_add:       487 sum_out:        7420879680
+counter_add:       487 sum_out:       -1045770112
+counter_add:       487 sum_out:       -1597978308
+counter_add:       487 sum_out:       -2021310476
+counter_add:       487 sum_out:         668376164
+counter_add:       487 sum_out:        -778132900
+counter_add:       487 sum_out:       -2389132392
+counter_add:       487 sum_out:        6326409052
+counter_add:       488 sum_out:       -1097573316
+counter_add:       488 sum_out:        2915931452
+counter_add:       488 sum_out:        7428918640
+counter_add:       488 sum_out:       -1043288520
+counter_add:       488 sum_out:       -1584931960
+counter_add:       488 sum_out:       -2017618928
+counter_add:       488 sum_out:         670050776
+counter_add:       488 sum_out:        -774493780
+counter_add:       488 sum_out:       -2389163232
+counter_add:       488 sum_out:        6324537064
+counter_add:       502 sum_out:       -1097573316
+counter_add:       502 sum_out:        2915931452
+counter_add:       502 sum_out:        7428918640
+counter_add:       502 sum_out:       -1043288520
+counter_add:       502 sum_out:       -1584931960
+counter_add:       502 sum_out:       -2017618928
+counter_add:       502 sum_out:         670050776
+counter_add:       502 sum_out:        -774493780
+counter_add:       502 sum_out:       -2389163232
+counter_add:       502 sum_out:        6324537064
+counter_add:       503 sum_out:       -1185052004
+counter_add:       503 sum_out:        2968022268
+counter_add:       503 sum_out:        7340017200
+counter_add:       503 sum_out:        -943005064
+counter_add:       503 sum_out:       -1694105560
+counter_add:       503 sum_out:       -1935946384
+counter_add:       503 sum_out:         631151256
+counter_add:       503 sum_out:        -791040468
+counter_add:       503 sum_out:       -2451920576
+counter_add:       503 sum_out:        6197895688
+counter_add:       504 sum_out:       -1185810668
+counter_add:       504 sum_out:        2956735856
+counter_add:       504 sum_out:        7328330896
+counter_add:       504 sum_out:        -934543596
+counter_add:       504 sum_out:       -1699845912
+counter_add:       504 sum_out:       -1937524364
+counter_add:       504 sum_out:         632183368
+counter_add:       504 sum_out:        -788947460
+counter_add:       504 sum_out:       -2452353364
+counter_add:       504 sum_out:        6189284132
+counter_add:       507 sum_out:       -1185810668
+counter_add:       507 sum_out:        2956735856
+counter_add:       507 sum_out:        7328330896
+counter_add:       507 sum_out:        -934543596
+counter_add:       507 sum_out:       -1699845912
+counter_add:       507 sum_out:       -1937524364
+counter_add:       507 sum_out:         632183368
+counter_add:       507 sum_out:        -788947460
+counter_add:       507 sum_out:       -2452353364
+counter_add:       507 sum_out:        6189284132
+counter_add:       508 sum_out:       -1184227548
+counter_add:       508 sum_out:        2951922760
+counter_add:       508 sum_out:        7322448680
+counter_add:       508 sum_out:        -969032996
+counter_add:       508 sum_out:       -1716053360
+counter_add:       508 sum_out:       -1936804764
+counter_add:       508 sum_out:         634858224
+counter_add:       508 sum_out:        -752905780
+counter_add:       508 sum_out:       -2453697988
+counter_add:       508 sum_out:        6182047012
+counter_add:       509 sum_out:       -1028958428
+counter_add:       509 sum_out:        2728345096
+counter_add:       509 sum_out:        7129661672
+counter_add:       509 sum_out:       -1145273316
+counter_add:       509 sum_out:       -1828787952
+counter_add:       509 sum_out:       -1957118044
+counter_add:       509 sum_out:         734006768
+counter_add:       509 sum_out:        -551697396
+counter_add:       509 sum_out:       -2246732804
+counter_add:       509 sum_out:        6310769060
+counter_add:       510 sum_out:        -934727836
+counter_add:       510 sum_out:        2653588936
+counter_add:       510 sum_out:        7434837864
+counter_add:       510 sum_out:       -1419379236
+counter_add:       510 sum_out:       -1554599792
+counter_add:       510 sum_out:       -1781831708
+counter_add:       510 sum_out:         627752688
+counter_add:       510 sum_out:        -702788724
+counter_add:       510 sum_out:       -2377181892
+counter_add:       510 sum_out:        6565482788
+counter_add:       511 sum_out:       -1159407516
+counter_add:       511 sum_out:        2736963848
+counter_add:       511 sum_out:        7623660904
+counter_add:       511 sum_out:       -1331991012
+counter_add:       511 sum_out:       -1353374960
+counter_add:       511 sum_out:       -1962052444
+counter_add:       511 sum_out:         748908656
+counter_add:       511 sum_out:        -362315124
+counter_add:       511 sum_out:       -2128817092
+counter_add:       511 sum_out:        6928391460
+counter_add:       512 sum_out:       -1294001500
+counter_add:       512 sum_out:        2564555912
+counter_add:       512 sum_out:        7589317480
+counter_add:       512 sum_out:       -1444988772
+counter_add:       512 sum_out:       -1285329584
+counter_add:       512 sum_out:       -2032548572
+counter_add:       512 sum_out:         910608944
+counter_add:       512 sum_out:        -444801844
+counter_add:       512 sum_out:       -2231353924
+counter_add:       512 sum_out:        6880083684
+counter_add:       513 sum_out:        -996665196
+counter_add:       513 sum_out:        2481662012
+counter_add:       513 sum_out:        7844395532
+counter_add:       513 sum_out:       -1584297556
+counter_add:       513 sum_out:       -1555340296
+counter_add:       513 sum_out:       -2100439264
+counter_add:       513 sum_out:         772334864
+counter_add:       513 sum_out:        -297450588
+counter_add:       513 sum_out:       -2596557404
+counter_add:       513 sum_out:        7053631764
+counter_add:       514 sum_out:       -1446111084
+counter_add:       514 sum_out:        3031148604
+counter_add:       514 sum_out:        8296331788
+counter_add:       514 sum_out:       -1509455444
+counter_add:       514 sum_out:       -1281006600
+counter_add:       514 sum_out:       -2211227872
+counter_add:       514 sum_out:         586278160
+counter_add:       514 sum_out:        -195116124
+counter_add:       514 sum_out:       -2539213404
+counter_add:       514 sum_out:        7470932244
+counter_add:       515 sum_out:       -1953163116
+counter_add:       515 sum_out:        3034523708
+counter_add:       515 sum_out:        8494578188
+counter_add:       515 sum_out:       -1333392980
+counter_add:       515 sum_out:       -1790057480
+counter_add:       515 sum_out:       -2556405984
+counter_add:       515 sum_out:         316695824
+counter_add:       515 sum_out:        -151305308
+counter_add:       515 sum_out:       -2857030236
+counter_add:       515 sum_out:        7627661588
+counter_add:       516 sum_out:       -1856705832
+counter_add:       516 sum_out:        3145533992
+counter_add:       516 sum_out:        8343944936
+counter_add:       516 sum_out:       -1121986400
+counter_add:       516 sum_out:       -1965624872
+counter_add:       516 sum_out:       -2684705232
+counter_add:       516 sum_out:         176016824
+counter_add:       516 sum_out:          90138664
+counter_add:       516 sum_out:       -2999824272
+counter_add:       516 sum_out:        7390428284
+counter_add:       517 sum_out:       -1866880976
+counter_add:       517 sum_out:        3155816048
+counter_add:       517 sum_out:        8347592280
+counter_add:       517 sum_out:       -1102942700
+counter_add:       517 sum_out:       -1967207992
+counter_add:       517 sum_out:       -2676093676
+counter_add:       517 sum_out:         162792632
+counter_add:       517 sum_out:          83478252
+counter_add:       517 sum_out:       -3002769492
+counter_add:       517 sum_out:        7382913604
+counter_add:       529 sum_out:       -1866880976
+counter_add:       529 sum_out:        3155816048
+counter_add:       529 sum_out:        8347592280
+counter_add:       529 sum_out:       -1102942700
+counter_add:       529 sum_out:       -1967207992
+counter_add:       529 sum_out:       -2676093676
+counter_add:       529 sum_out:         162792632
+counter_add:       529 sum_out:          83478252
+counter_add:       529 sum_out:       -3002769492
+counter_add:       529 sum_out:        7382913604
+counter_add:       530 sum_out:       -1992836676
+counter_add:       530 sum_out:        3111019920
+counter_add:       530 sum_out:        8304987848
+counter_add:       530 sum_out:       -1081961220
+counter_add:       530 sum_out:       -2015772768
+counter_add:       530 sum_out:       -2533432976
+counter_add:       530 sum_out:         263223092
+counter_add:       530 sum_out:         -90761580
+counter_add:       530 sum_out:       -2884016988
+counter_add:       530 sum_out:        7163556908
+counter_add:       531 sum_out:       -2057684548
+counter_add:       531 sum_out:        3078874512
+counter_add:       531 sum_out:        8189415112
+counter_add:       531 sum_out:        -644573956
+counter_add:       531 sum_out:       -1465761888
+counter_add:       531 sum_out:       -2877234832
+counter_add:       531 sum_out:         596637492
+counter_add:       531 sum_out:         -65923436
+counter_add:       531 sum_out:       -3373636444
+counter_add:       531 sum_out:        6968489004
+counter_add:       532 sum_out:       -2079727492
+counter_add:       532 sum_out:        2830522716
+counter_add:       532 sum_out:        7952841544
+counter_add:       532 sum_out:        -395698252
+counter_add:       532 sum_out:       -1572076404
+counter_add:       532 sum_out:       -2658396520
+counter_add:       532 sum_out:         381388920
+counter_add:       532 sum_out:         272482324
+counter_add:       532 sum_out:       -3691706812
+counter_add:       532 sum_out:        7193361960
+counter_add:       533 sum_out:       -2091459028
+counter_add:       533 sum_out:        2813744728
+counter_add:       533 sum_out:        7938816540
+counter_add:       533 sum_out:        -412820620
+counter_add:       533 sum_out:       -1560416828
+counter_add:       533 sum_out:       -2668568580
+counter_add:       533 sum_out:         386604992
+counter_add:       533 sum_out:         262176624
+counter_add:       533 sum_out:       -3703102192
+counter_add:       533 sum_out:        7190374592
+counter_add:       540 sum_out:       -2091459028
+counter_add:       540 sum_out:        2813744728
+counter_add:       540 sum_out:        7938816540
+counter_add:       540 sum_out:        -412820620
+counter_add:       540 sum_out:       -1560416828
+counter_add:       540 sum_out:       -2668568580
+counter_add:       540 sum_out:         386604992
+counter_add:       540 sum_out:         262176624
+counter_add:       540 sum_out:       -3703102192
+counter_add:       540 sum_out:        7190374592
+counter_add:       541 sum_out:       -2113454116
+counter_add:       541 sum_out:        2841794736
+counter_add:       541 sum_out:        7914909372
+counter_add:       541 sum_out:        -387579108
+counter_add:       541 sum_out:       -1578941388
+counter_add:       541 sum_out:       -2665198796
+counter_add:       541 sum_out:         428027224
+counter_add:       541 sum_out:         291266968
+counter_add:       541 sum_out:       -3737776632
+counter_add:       541 sum_out:        7193555224
+counter_add:       542 sum_out:       -2361148144
+counter_add:       542 sum_out:        2628034296
+counter_add:       542 sum_out:        8043777052
+counter_add:       542 sum_out:        -246130368
+counter_add:       542 sum_out:       -1805588596
+counter_add:       542 sum_out:       -2735558668
+counter_add:       542 sum_out:         208340752
+counter_add:       542 sum_out:         760599296
+counter_add:       542 sum_out:       -4119699988
+counter_add:       542 sum_out:        7266525372
+counter_add:       543 sum_out:       -1909408496
+counter_add:       543 sum_out:        2685181688
+counter_add:       543 sum_out:        7914933276
+counter_add:       543 sum_out:        -165979840
+counter_add:       543 sum_out:       -1837176948
+counter_add:       543 sum_out:       -2211008524
+counter_add:       543 sum_out:          50202384
+counter_add:       543 sum_out:         508941056
+counter_add:       543 sum_out:       -3804537364
+counter_add:       543 sum_out:        7438753980
+counter_add:       544 sum_out:       -1647657712
+counter_add:       544 sum_out:        2282331896
+counter_add:       544 sum_out:        7920372764
+counter_add:       544 sum_out:        -573941440
+counter_add:       544 sum_out:       -1871157364
+counter_add:       544 sum_out:       -2219036684
+counter_add:       544 sum_out:        -103545072
+counter_add:       544 sum_out:         167596800
+counter_add:       544 sum_out:       -3377472020
+counter_add:       544 sum_out:        7263215804
+counter_add:       545 sum_out:       -1825573672
+counter_add:       545 sum_out:        2146712996
+counter_add:       545 sum_out:        8047464404
+counter_add:       545 sum_out:        -522191920
+counter_add:       545 sum_out:       -1686641644
+counter_add:       545 sum_out:       -2229738164
+counter_add:       545 sum_out:          -7123812
+counter_add:       545 sum_out:         314487720
+counter_add:       545 sum_out:       -3275453300
+counter_add:       545 sum_out:        7241334824
+counter_add:       557 sum_out:       -1825573672
+counter_add:       557 sum_out:        2146712996
+counter_add:       557 sum_out:        8047464404
+counter_add:       557 sum_out:        -522191920
+counter_add:       557 sum_out:       -1686641644
+counter_add:       557 sum_out:       -2229738164
+counter_add:       557 sum_out:          -7123812
+counter_add:       557 sum_out:         314487720
+counter_add:       557 sum_out:       -3275453300
+counter_add:       557 sum_out:        7241334824
+counter_add:       558 sum_out:       -1841517952
+counter_add:       558 sum_out:        2154361316
+counter_add:       558 sum_out:        8271825404
+counter_add:       558 sum_out:        -339295300
+counter_add:       558 sum_out:       -1522819564
+counter_add:       558 sum_out:       -2353622444
+counter_add:       558 sum_out:         130592208
+counter_add:       558 sum_out:         283755660
+counter_add:       558 sum_out:       -3447324620
+counter_add:       558 sum_out:        7448672144
+counter_add:       559 sum_out:       -1733514624
+counter_add:       559 sum_out:        1706947044
+counter_add:       559 sum_out:        8261962236
+counter_add:       559 sum_out:        -680836164
+counter_add:       559 sum_out:       -1378410988
+counter_add:       559 sum_out:       -2173267372
+counter_add:       559 sum_out:        -252793392
+counter_add:       559 sum_out:         135578764
+counter_add:       559 sum_out:       -3229515724
+counter_add:       559 sum_out:        7131903888
+counter_add:       560 sum_out:       -1539822976
+counter_add:       560 sum_out:        2130309604
+counter_add:       560 sum_out:        7819790844
+counter_add:       560 sum_out:        -827833412
+counter_add:       560 sum_out:       -1018618348
+counter_add:       560 sum_out:       -1980722604
+counter_add:       560 sum_out:        -298275376
+counter_add:       560 sum_out:        -252853108
+counter_add:       560 sum_out:       -2859302860
+counter_add:       560 sum_out:        6537852816
+counter_add:       561 sum_out:       -1474534696
+counter_add:       561 sum_out:        2272713304
+counter_add:       561 sum_out:        7585668984
+counter_add:       561 sum_out:        -638105732
+counter_add:       561 sum_out:       -1117275508
+counter_add:       561 sum_out:       -2034569244
+counter_add:       561 sum_out:         -98941036
+counter_add:       561 sum_out:        -103556668
+counter_add:       561 sum_out:       -2865594220
+counter_add:       561 sum_out:        6265797756
+counter_add:       569 sum_out:       -1474534696
+counter_add:       569 sum_out:        2272713304
+counter_add:       569 sum_out:        7585668984
+counter_add:       569 sum_out:        -638105732
+counter_add:       569 sum_out:       -1117275508
+counter_add:       569 sum_out:       -2034569244
+counter_add:       569 sum_out:         -98941036
+counter_add:       569 sum_out:        -103556668
+counter_add:       569 sum_out:       -2865594220
+counter_add:       569 sum_out:        6265797756
+counter_add:       570 sum_out:       -1447716232
+counter_add:       570 sum_out:        2280571336
+counter_add:       570 sum_out:        7559422088
+counter_add:       570 sum_out:        -617175652
+counter_add:       570 sum_out:       -1087153052
+counter_add:       570 sum_out:       -2003470188
+counter_add:       570 sum_out:         -75689732
+counter_add:       570 sum_out:         -65738604
+counter_add:       570 sum_out:       -2882256044
+counter_add:       570 sum_out:        6242059180
+counter_add:       571 sum_out:       -1512782376
+counter_add:       571 sum_out:        2283541160
+counter_add:       571 sum_out:        7449808584
+counter_add:       571 sum_out:        -705681316
+counter_add:       571 sum_out:       -1047342684
+counter_add:       571 sum_out:       -2197956844
+counter_add:       571 sum_out:        -403131236
+counter_add:       571 sum_out:         -98480300
+counter_add:       571 sum_out:       -2982714636
+counter_add:       571 sum_out:        6366840876
+counter_add:       572 sum_out:       -1658632744
+counter_add:       572 sum_out:        2502726312
+counter_add:       572 sum_out:        7150636744
+counter_add:       572 sum_out:        -110057380
+counter_add:       572 sum_out:       -1402121820
+counter_add:       572 sum_out:       -1573726444
+counter_add:       572 sum_out:        -529812324
+counter_add:       572 sum_out:         328847188
+counter_add:       572 sum_out:       -3123911948
+counter_add:       572 sum_out:        6597527596
+counter_add:       573 sum_out:       -1900122280
+counter_add:       573 sum_out:        2514289256
+counter_add:       573 sum_out:        7404149768
+counter_add:       573 sum_out:         107253596
+counter_add:       573 sum_out:       -1667773468
+counter_add:       573 sum_out:       -1444033964
+counter_add:       573 sum_out:        -296431652
+counter_add:       573 sum_out:         113921172
+counter_add:       573 sum_out:       -3248949644
+counter_add:       573 sum_out:        6585273836
+counter_add:       585 sum_out:       -1900122280
+counter_add:       585 sum_out:        2514289256
+counter_add:       585 sum_out:        7404149768
+counter_add:       585 sum_out:         107253596
+counter_add:       585 sum_out:       -1667773468
+counter_add:       585 sum_out:       -1444033964
+counter_add:       585 sum_out:        -296431652
+counter_add:       585 sum_out:         113921172
+counter_add:       585 sum_out:       -3248949644
+counter_add:       585 sum_out:        6585273836
+counter_add:       586 sum_out:       -1886867248
+counter_add:       586 sum_out:        2512831552
+counter_add:       586 sum_out:        7391676016
+counter_add:       586 sum_out:         120111820
+counter_add:       586 sum_out:       -1687044356
+counter_add:       586 sum_out:       -1444955052
+counter_add:       586 sum_out:        -272849332
+counter_add:       586 sum_out:         142520132
+counter_add:       586 sum_out:       -3262508964
+counter_add:       586 sum_out:        6582962892
+counter_add:       587 sum_out:       -1977999120
+counter_add:       587 sum_out:        2762812192
+counter_add:       587 sum_out:        7291511952
+counter_add:       587 sum_out:          19702316
+counter_add:       587 sum_out:       -1256370788
+counter_add:       587 sum_out:        -927960236
+counter_add:       587 sum_out:          57537452
+counter_add:       587 sum_out:        -196825212
+counter_add:       587 sum_out:       -3185710788
+counter_add:       587 sum_out:        6355390924
+counter_add:       588 sum_out:       -2379800336
+counter_add:       588 sum_out:        2447026976
+counter_add:       588 sum_out:        6934111376
+counter_add:       588 sum_out:        -297786836
+counter_add:       588 sum_out:        -648786532
+counter_add:       588 sum_out:       -1134660780
+counter_add:       588 sum_out:         627930028
+counter_add:       588 sum_out:        -140497020
+counter_add:       588 sum_out:       -3344897732
+counter_add:       588 sum_out:        6224646604
+counter_add:       589 sum_out:       -2279274896
+counter_add:       589 sum_out:        2368241184
+counter_add:       589 sum_out:        6986907664
+counter_add:       589 sum_out:        -366193172
+counter_add:       589 sum_out:        -686013636
+counter_add:       589 sum_out:        -823011484
+counter_add:       589 sum_out:         953309628
+counter_add:       589 sum_out:          40693956
+counter_add:       589 sum_out:       -3277145220
+counter_add:       589 sum_out:        6187194748
+counter_add:       590 sum_out:       -2265606608
+counter_add:       590 sum_out:        2360903320
+counter_add:       590 sum_out:        6980272952
+counter_add:       590 sum_out:        -357075840
+counter_add:       590 sum_out:        -673291108
+counter_add:       590 sum_out:        -801387504
+counter_add:       590 sum_out:         949184264
+counter_add:       590 sum_out:          31154116
+counter_add:       590 sum_out:       -3287224760
+counter_add:       590 sum_out:        6196322360
+counter_add:       598 sum_out:       -2265606608
+counter_add:       598 sum_out:        2360903320
+counter_add:       598 sum_out:        6980272952
+counter_add:       598 sum_out:        -357075840
+counter_add:       598 sum_out:        -673291108
+counter_add:       598 sum_out:        -801387504
+counter_add:       598 sum_out:         949184264
+counter_add:       598 sum_out:          31154116
+counter_add:       598 sum_out:       -3287224760
+counter_add:       598 sum_out:        6196322360
+counter_add:       599 sum_out:       -2275761312
+counter_add:       599 sum_out:        2417765576
+counter_add:       599 sum_out:        6999479032
+counter_add:       599 sum_out:         -40706752
+counter_add:       599 sum_out:        -974479220
+counter_add:       599 sum_out:        -529090240
+counter_add:       599 sum_out:         926831656
+counter_add:       599 sum_out:         -17882684
+counter_add:       599 sum_out:       -3054259096
+counter_add:       599 sum_out:        6095000072
+counter_add:       600 sum_out:       -2422594720
+counter_add:       600 sum_out:        2544970952
+counter_add:       600 sum_out:        6935450360
+counter_add:       600 sum_out:          45079872
+counter_add:       600 sum_out:        -649584500
+counter_add:       600 sum_out:        -307578560
+counter_add:       600 sum_out:         882168872
+counter_add:       600 sum_out:         391913924
+counter_add:       600 sum_out:       -3031878552
+counter_add:       600 sum_out:        6055940616
+counter_add:       601 sum_out:       -2485639904
+counter_add:       601 sum_out:        2394586888
+counter_add:       601 sum_out:        6681197176
+counter_add:       601 sum_out:         185496448
+counter_add:       601 sum_out:        -788093108
+counter_add:       601 sum_out:        -268333632
+counter_add:       601 sum_out:         830735976
+counter_add:       601 sum_out:         649259332
+counter_add:       601 sum_out:       -2801047320
+counter_add:       601 sum_out:        6179826952
+counter_add:       614 sum_out:       -2485639904
+counter_add:       614 sum_out:        2394586888
+counter_add:       614 sum_out:        6681197176
+counter_add:       614 sum_out:         185496448
+counter_add:       614 sum_out:        -788093108
+counter_add:       614 sum_out:        -268333632
+counter_add:       614 sum_out:         830735976
+counter_add:       614 sum_out:         649259332
+counter_add:       614 sum_out:       -2801047320
+counter_add:       614 sum_out:        6179826952
+counter_add:       615 sum_out:       -2438377604
+counter_add:       615 sum_out:        2258798368
+counter_add:       615 sum_out:        6945418876
+counter_add:       615 sum_out:         240515008
+counter_add:       615 sum_out:        -651595268
+counter_add:       615 sum_out:        -425648472
+counter_add:       615 sum_out:        1081496016
+counter_add:       615 sum_out:         406425172
+counter_add:       615 sum_out:       -2851486140
+counter_add:       615 sum_out:        5925998332
+counter_add:       616 sum_out:       -2516824196
+counter_add:       616 sum_out:        2543060768
+counter_add:       616 sum_out:        6888107644
+counter_add:       616 sum_out:         974452672
+counter_add:       616 sum_out:        -568331780
+counter_add:       616 sum_out:        -455991640
+counter_add:       616 sum_out:         877842896
+counter_add:       616 sum_out:         610635348
+counter_add:       616 sum_out:       -2884876732
+counter_add:       616 sum_out:        5909712636
+counter_add:       617 sum_out:       -3067588740
+counter_add:       617 sum_out:        3202647840
+counter_add:       617 sum_out:        6983724668
+counter_add:       617 sum_out:        1247934400
+counter_add:       617 sum_out:        -308645380
+counter_add:       617 sum_out:           9281192
+counter_add:       617 sum_out:         485216720
+counter_add:       617 sum_out:         933334612
+counter_add:       617 sum_out:       -2445392316
+counter_add:       617 sum_out:        5605428988
+counter_add:       618 sum_out:       -3353825492
+counter_add:       618 sum_out:        3069218056
+counter_add:       618 sum_out:        7160071152
+counter_add:       618 sum_out:         950151292
+counter_add:       618 sum_out:        -500277264
+counter_add:       618 sum_out:         418906396
+counter_add:       618 sum_out:         337489208
+counter_add:       618 sum_out:         718445404
+counter_add:       618 sum_out:       -2486404220
+counter_add:       618 sum_out:        5397477000
+counter_add:       619 sum_out:       -3195283220
+counter_add:       619 sum_out:        3095781576
+counter_add:       619 sum_out:        7201503664
+counter_add:       619 sum_out:        1211444220
+counter_add:       619 sum_out:        -461328400
+counter_add:       619 sum_out:         459582300
+counter_add:       619 sum_out:         510768888
+counter_add:       619 sum_out:         990659804
+counter_add:       619 sum_out:       -2720360572
+counter_add:       619 sum_out:        5361044680
+counter_add:       620 sum_out:       -3190069204
+counter_add:       620 sum_out:        3342073928
+counter_add:       620 sum_out:        7316294256
+counter_add:       620 sum_out:        1014545212
+counter_add:       620 sum_out:        -282407056
+counter_add:       620 sum_out:         473793372
+counter_add:       620 sum_out:         222895992
+counter_add:       620 sum_out:        1041385436
+counter_add:       620 sum_out:       -2827223228
+counter_add:       620 sum_out:        5088731592
+counter_add:       621 sum_out:       -3037662036
+counter_add:       621 sum_out:        3128019656
+counter_add:       621 sum_out:        7244515184
+counter_add:       621 sum_out:         805277308
+counter_add:       621 sum_out:        -381752976
+counter_add:       621 sum_out:         735958044
+counter_add:       621 sum_out:         -68118472
+counter_add:       621 sum_out:        1183265884
+counter_add:       621 sum_out:       -3090966908
+counter_add:       621 sum_out:        5294989512
+counter_add:       622 sum_out:       -3150281492
+counter_add:       622 sum_out:        3380397768
+counter_add:       622 sum_out:        7199151600
+counter_add:       622 sum_out:        1058905468
+counter_add:       622 sum_out:        -147319632
+counter_add:       622 sum_out:         968335388
+counter_add:       622 sum_out:        -228108168
+counter_add:       622 sum_out:        1502028124
+counter_add:       622 sum_out:       -3292504252
+counter_add:       622 sum_out:        5074504072
+counter_add:       623 sum_out:       -3203244052
+counter_add:       623 sum_out:        3685343688
+counter_add:       623 sum_out:        7136714992
+counter_add:       623 sum_out:        1274374268
+counter_add:       623 sum_out:        -350353744
+counter_add:       623 sum_out:        1230631644
+counter_add:       623 sum_out:         -61095176
+counter_add:       623 sum_out:        1761413084
+counter_add:       623 sum_out:       -3197352572
+counter_add:       623 sum_out:        5204689992
+counter_add:       624 sum_out:       -3491939348
+counter_add:       624 sum_out:        3589418952
+counter_add:       624 sum_out:        7425805040
+counter_add:       624 sum_out:        1235968188
+counter_add:       624 sum_out:        -298920848
+counter_add:       624 sum_out:        1439208732
+counter_add:       624 sum_out:        -172464584
+counter_add:       624 sum_out:        1854229148
+counter_add:       624 sum_out:       -3091509692
+counter_add:       624 sum_out:        5281452808
+counter_add:       625 sum_out:       -3545263764
+counter_add:       625 sum_out:        3456667144
+counter_add:       625 sum_out:        7300076528
+counter_add:       625 sum_out:        1527837948
+counter_add:       625 sum_out:        -150230928
+counter_add:       625 sum_out:        1650170780
+counter_add:       625 sum_out:        -400137800
+counter_add:       625 sum_out:        1921238300
+counter_add:       625 sum_out:       -3077528892
+counter_add:       625 sum_out:        5066280072
+counter_add:       626 sum_out:       -3430238164
+counter_add:       626 sum_out:        3614483984
+counter_add:       626 sum_out:        7469138408
+counter_add:       626 sum_out:        1573998408
+counter_add:       626 sum_out:        -338821408
+counter_add:       626 sum_out:        1530896100
+counter_add:       626 sum_out:         -75490920
+counter_add:       626 sum_out:        1946110440
+counter_add:       626 sum_out:       -3264960532
+counter_add:       626 sum_out:        5369445492
+counter_add:       627 sum_out:       -3382757332
+counter_add:       627 sum_out:        3652986384
+counter_add:       627 sum_out:        7513539048
+counter_add:       627 sum_out:        1300614984
+counter_add:       627 sum_out:        -384368928
+counter_add:       627 sum_out:        1946033892
+counter_add:       627 sum_out:         153491864
+counter_add:       627 sum_out:        2193017320
+counter_add:       627 sum_out:       -3599587348
+counter_add:       627 sum_out:        5399297140
+counter_add:       628 sum_out:       -3337570260
+counter_add:       628 sum_out:        4064126480
+counter_add:       628 sum_out:        7566066152
+counter_add:       628 sum_out:        1773522760
+counter_add:       628 sum_out:        -103776544
+counter_add:       628 sum_out:        2024939236
+counter_add:       628 sum_out:         702781848
+counter_add:       628 sum_out:        1853278696
+counter_add:       628 sum_out:       -3209517076
+counter_add:       628 sum_out:        5185223796
+counter_add:       629 sum_out:       -3134980244
+counter_add:       629 sum_out:        4120608912
+counter_add:       629 sum_out:        7698308072
+counter_add:       629 sum_out:        1848246024
+counter_add:       629 sum_out:        -325791648
+counter_add:       629 sum_out:        1943143332
+counter_add:       629 sum_out:         699475800
+counter_add:       629 sum_out:        1721694696
+counter_add:       629 sum_out:       -2967994644
+counter_add:       629 sum_out:        5354029620
+counter_add:       642 sum_out:       -3134980244
+counter_add:       642 sum_out:        4120608912
+counter_add:       642 sum_out:        7698308072
+counter_add:       642 sum_out:        1848246024
+counter_add:       642 sum_out:        -325791648
+counter_add:       642 sum_out:        1943143332
+counter_add:       642 sum_out:         699475800
+counter_add:       642 sum_out:        1721694696
+counter_add:       642 sum_out:       -2967994644
+counter_add:       642 sum_out:        5354029620
+counter_add:       643 sum_out:       -3118114876
+counter_add:       643 sum_out:        4131931304
+counter_add:       643 sum_out:        7702282320
+counter_add:       643 sum_out:        1890245992
+counter_add:       643 sum_out:        -346530520
+counter_add:       643 sum_out:        1940075780
+counter_add:       643 sum_out:         670274432
+counter_add:       643 sum_out:        1727704384
+counter_add:       643 sum_out:       -2943452172
+counter_add:       643 sum_out:        5371585804
+counter_add:       644 sum_out:       -2758296560
+counter_add:       644 sum_out:        3994809508
+counter_add:       644 sum_out:        7507969612
+counter_add:       644 sum_out:        2055304796
+counter_add:       644 sum_out:        -281932068
+counter_add:       644 sum_out:        2118750348
+counter_add:       644 sum_out:         432198448
+counter_add:       644 sum_out:        1615203840
+counter_add:       644 sum_out:       -3074483324
+counter_add:       644 sum_out:        5047582356
+counter_add:       645 sum_out:       -2495726576
+counter_add:       645 sum_out:        3791221924
+counter_add:       645 sum_out:        7509050956
+counter_add:       645 sum_out:        1914861148
+counter_add:       645 sum_out:          82743004
+counter_add:       645 sum_out:        2620199052
+counter_add:       645 sum_out:         767939376
+counter_add:       645 sum_out:        1583320576
+counter_add:       645 sum_out:       -3115377788
+counter_add:       645 sum_out:        5162499732
+counter_add:       646 sum_out:       -2954478576
+counter_add:       646 sum_out:        3474355364
+counter_add:       646 sum_out:        7459276364
+counter_add:       646 sum_out:        1701312092
+counter_add:       646 sum_out:        -240644388
+counter_add:       646 sum_out:        2996342924
+counter_add:       646 sum_out:        1251267376
+counter_add:       646 sum_out:        1397263872
+counter_add:       646 sum_out:       -2783011964
+counter_add:       646 sum_out:        5524225684
+counter_add:       647 sum_out:       -3098264560
+counter_add:       647 sum_out:        4035212452
+counter_add:       647 sum_out:        7294486092
+counter_add:       647 sum_out:        1917908572
+counter_add:       647 sum_out:        -401535268
+counter_add:       647 sum_out:        3346337932
+counter_add:       647 sum_out:        1307595568
+counter_add:       647 sum_out:        1115393536
+counter_add:       647 sum_out:       -3017434236
+counter_add:       647 sum_out:        5522751124
+counter_add:       648 sum_out:       -2715042800
+counter_add:       648 sum_out:        4603180196
+counter_add:       648 sum_out:        7588480588
+counter_add:       648 sum_out:        2393208412
+counter_add:       648 sum_out:        -964292900
+counter_add:       648 sum_out:        4014117004
+counter_add:       648 sum_out:        1085592368
+counter_add:       648 sum_out:        1046089216
+counter_add:       648 sum_out:       -2795857020
+counter_add:       648 sum_out:        6104120980
+counter_add:       649 sum_out:       -3234907120
+counter_add:       649 sum_out:        4453397668
+counter_add:       649 sum_out:        7468123724
+counter_add:       649 sum_out:        2628843100
+counter_add:       649 sum_out:       -1176138020
+counter_add:       649 sum_out:        3809775756
+counter_add:       649 sum_out:        1566495536
+counter_add:       649 sum_out:        1446252032
+counter_add:       649 sum_out:       -2955207804
+counter_add:       649 sum_out:        5847088788
+counter_add:       650 sum_out:       -3633628144
+counter_add:       650 sum_out:        4501337252
+counter_add:       650 sum_out:        7499351628
+counter_add:       650 sum_out:        2580936284
+counter_add:       650 sum_out:       -1501425956
+counter_add:       650 sum_out:        3989573772
+counter_add:       650 sum_out:        1588974384
+counter_add:       650 sum_out:         913870336
+counter_add:       650 sum_out:       -3132417148
+counter_add:       650 sum_out:        6273236628
+counter_add:       651 sum_out:       -3663414256
+counter_add:       651 sum_out:        5084902564
+counter_add:       651 sum_out:        7781680716
+counter_add:       651 sum_out:        2163144284
+counter_add:       651 sum_out:       -1790734628
+counter_add:       651 sum_out:        3862368396
+counter_add:       651 sum_out:        1305105200
+counter_add:       651 sum_out:        1347816960
+counter_add:       651 sum_out:       -3093292156
+counter_add:       651 sum_out:        5871271572
+counter_add:       652 sum_out:       -3800515568
+counter_add:       652 sum_out:        5094732964
+counter_add:       652 sum_out:        7591462476
+counter_add:       652 sum_out:        2458383964
+counter_add:       652 sum_out:       -2128277796
+counter_add:       652 sum_out:        4049145996
+counter_add:       652 sum_out:        1737937712
+counter_add:       652 sum_out:        1048514048
+counter_add:       652 sum_out:       -2997609596
+counter_add:       652 sum_out:        6085541524
+counter_add:       653 sum_out:       -3505210352
+counter_add:       653 sum_out:        4988040356
+counter_add:       653 sum_out:        7206110796
+counter_add:       653 sum_out:        2428958300
+counter_add:       653 sum_out:       -2553868580
+counter_add:       653 sum_out:        3853062284
+counter_add:       653 sum_out:        1291342640
+counter_add:       653 sum_out:         831393280
+counter_add:       653 sum_out:       -2787337340
+counter_add:       653 sum_out:        6378520212
+counter_add:       654 sum_out:       -3152659440
+counter_add:       654 sum_out:        5335741604
+counter_add:       654 sum_out:        7501547084
+counter_add:       654 sum_out:        2642212444
+counter_add:       654 sum_out:       -3032641828
+counter_add:       654 sum_out:        4193620108
+counter_add:       654 sum_out:        1477366576
+counter_add:       654 sum_out:        1262947840
+counter_add:       654 sum_out:       -2638111868
+counter_add:       654 sum_out:        6432521876
+counter_add:       655 sum_out:       -3166749680
+counter_add:       655 sum_out:        5260506276
+counter_add:       655 sum_out:        7082739276
+counter_add:       655 sum_out:        3012818524
+counter_add:       655 sum_out:       -2812375332
+counter_add:       655 sum_out:        3879768204
+counter_add:       655 sum_out:        1124324144
+counter_add:       655 sum_out:        1241910784
+counter_add:       655 sum_out:       -2166908028
+counter_add:       655 sum_out:        6615531156
+counter_add:       656 sum_out:       -2938613200
+counter_add:       656 sum_out:        5463362436
+counter_add:       656 sum_out:        6759813868
+counter_add:       656 sum_out:        3401988188
+counter_add:       656 sum_out:       -2707523364
+counter_add:       656 sum_out:        4150660332
+counter_add:       656 sum_out:        1232685904
+counter_add:       656 sum_out:        1207475552
+counter_add:       656 sum_out:       -2394872700
+counter_add:       656 sum_out:        6631754740
+counter_add:       657 sum_out:       -2996896688
+counter_add:       657 sum_out:        5489839604
+counter_add:       657 sum_out:        6756071948
+counter_add:       657 sum_out:        3419225692
+counter_add:       657 sum_out:       -2646242228
+counter_add:       657 sum_out:        4104157724
+counter_add:       657 sum_out:        1235683552
+counter_add:       657 sum_out:        1150927328
+counter_add:       657 sum_out:       -2404289180
+counter_add:       657 sum_out:        6658277140
+counter_add:       671 sum_out:       -2996896688
+counter_add:       671 sum_out:        5489839604
+counter_add:       671 sum_out:        6756071948
+counter_add:       671 sum_out:        3419225692
+counter_add:       671 sum_out:       -2646242228
+counter_add:       671 sum_out:        4104157724
+counter_add:       671 sum_out:        1235683552
+counter_add:       671 sum_out:        1150927328
+counter_add:       671 sum_out:       -2404289180
+counter_add:       671 sum_out:        6658277140
+counter_add:       672 sum_out:       -3000798976
+counter_add:       672 sum_out:        5512379532
+counter_add:       672 sum_out:        6764526220
+counter_add:       672 sum_out:        3425369020
+counter_add:       672 sum_out:       -2656098692
+counter_add:       672 sum_out:        4090711484
+counter_add:       672 sum_out:        1232905896
+counter_add:       672 sum_out:        1133105920
+counter_add:       672 sum_out:       -2425934748
+counter_add:       672 sum_out:        6627151356
+counter_add:       673 sum_out:       -3054616832
+counter_add:       673 sum_out:        5580688076
+counter_add:       673 sum_out:        6814544588
+counter_add:       673 sum_out:        3275100092
+counter_add:       673 sum_out:       -2437932420
+counter_add:       673 sum_out:        3882282428
+counter_add:       673 sum_out:        1397172072
+counter_add:       673 sum_out:        1278078592
+counter_add:       673 sum_out:       -2253592604
+counter_add:       673 sum_out:        6699621244
+counter_add:       674 sum_out:       -3028563200
+counter_add:       674 sum_out:        5540538508
+counter_add:       674 sum_out:        6979073932
+counter_add:       674 sum_out:        3284491900
+counter_add:       674 sum_out:       -2550009092
+counter_add:       674 sum_out:        3987385148
+counter_add:       674 sum_out:        1189910824
+counter_add:       674 sum_out:        1215888704
+counter_add:       674 sum_out:       -2026347036
+counter_add:       674 sum_out:        6843409660
+counter_add:       675 sum_out:       -2994482944
+counter_add:       675 sum_out:        5839448012
+counter_add:       675 sum_out:        6872770508
+counter_add:       675 sum_out:        3295544956
+counter_add:       675 sum_out:       -2747500228
+counter_add:       675 sum_out:        4098310460
+counter_add:       675 sum_out:        1213990696
+counter_add:       675 sum_out:        1165541376
+counter_add:       675 sum_out:       -1897361820
+counter_add:       675 sum_out:        6690377468
+counter_add:       676 sum_out:       -2786728256
+counter_add:       676 sum_out:        5757109324
+counter_add:       676 sum_out:        6975899468
+counter_add:       676 sum_out:        3390844668
+counter_add:       676 sum_out:       -2603925636
+counter_add:       676 sum_out:        4301805116
+counter_add:       676 sum_out:        1327942440
+counter_add:       676 sum_out:         924726208
+counter_add:       676 sum_out:       -2027136540
+counter_add:       676 sum_out:        6882226940
+counter_add:       677 sum_out:       -2780379328
+counter_add:       677 sum_out:        5958728908
+counter_add:       677 sum_out:        6870928332
+counter_add:       677 sum_out:        3187810556
+counter_add:       677 sum_out:       -2551785476
+counter_add:       677 sum_out:        4508046588
+counter_add:       677 sum_out:        1272381096
+counter_add:       677 sum_out:         959217664
+counter_add:       677 sum_out:       -2295173148
+counter_add:       677 sum_out:        6785775868
+counter_add:       678 sum_out:       -2707037696
+counter_add:       678 sum_out:        5960242124
+counter_add:       678 sum_out:        6739426572
+counter_add:       678 sum_out:        3359527676
+counter_add:       678 sum_out:       -2603876292
+counter_add:       678 sum_out:        4433306876
+counter_add:       678 sum_out:        1115171112
+counter_add:       678 sum_out:         649945920
+counter_add:       678 sum_out:       -2238838748
+counter_add:       678 sum_out:        6849478972
+counter_add:       679 sum_out:       -2722235648
+counter_add:       679 sum_out:        5836372236
+counter_add:       679 sum_out:        6646265100
+counter_add:       679 sum_out:        3080405116
+counter_add:       679 sum_out:       -2535485508
+counter_add:       679 sum_out:        4681819708
+counter_add:       679 sum_out:        1102884456
+counter_add:       679 sum_out:         692760064
+counter_add:       679 sum_out:       -2018550684
+counter_add:       679 sum_out:        6815398716
+counter_add:       680 sum_out:       -2721199424
+counter_add:       680 sum_out:        5947379788
+counter_add:       680 sum_out:        6651643596
+counter_add:       680 sum_out:        3081770300
+counter_add:       680 sum_out:       -2419987652
+counter_add:       680 sum_out:        4976222460
+counter_add:       680 sum_out:        1030513256
+counter_add:       680 sum_out:         528592576
+counter_add:       680 sum_out:       -2287623516
+counter_add:       680 sum_out:        6706332028
+counter_add:       681 sum_out:       -2668055936
+counter_add:       681 sum_out:        6087960844
+counter_add:       681 sum_out:        6683931020
+counter_add:       681 sum_out:        3090504188
+counter_add:       681 sum_out:       -2274093892
+counter_add:       681 sum_out:        4888571068
+counter_add:       681 sum_out:        1186226472
+counter_add:       681 sum_out:         535105984
+counter_add:       681 sum_out:       -2398746204
+counter_add:       681 sum_out:        6957591676
+counter_add:       682 sum_out:       -2868244544
+counter_add:       682 sum_out:        5823641484
+counter_add:       682 sum_out:        6695016972
+counter_add:       682 sum_out:        2803700412
+counter_add:       682 sum_out:       -2313124996
+counter_add:       682 sum_out:        5104911612
+counter_add:       682 sum_out:        1422781608
+counter_add:       682 sum_out:         419180480
+counter_add:       682 sum_out:       -2524211548
+counter_add:       682 sum_out:        6769854204
+counter_add:       683 sum_out:       -2669273088
+counter_add:       683 sum_out:        5751385420
+counter_add:       683 sum_out:        6805629772
+counter_add:       683 sum_out:        2591093564
+counter_add:       683 sum_out:       -2288321412
+counter_add:       683 sum_out:        5320939644
+counter_add:       683 sum_out:        1246590632
+counter_add:       683 sum_out:         182427968
+counter_add:       683 sum_out:       -2495197276
+counter_add:       683 sum_out:        7015784700
+counter_add:       684 sum_out:       -2660884608
+counter_add:       684 sum_out:        5749921548
+counter_add:       684 sum_out:        6787405388
+counter_add:       684 sum_out:        2543756220
+counter_add:       684 sum_out:       -2352349364
+counter_add:       684 sum_out:        5360447740
+counter_add:       684 sum_out:        1307937560
+counter_add:       684 sum_out:         211384672
+counter_add:       684 sum_out:       -2541157100
+counter_add:       684 sum_out:        7032894732
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter_add:        20 sum_out:                    0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        21 sum_out:       84091945756064
+counter_add:        21 sum_out:       30619583162392
+counter_add:        21 sum_out:      -53786490145992
+counter_add:        21 sum_out:      -19130367936288
+counter_add:        21 sum_out:       -6612384976336
+counter_add:        21 sum_out:      169730969707304
+counter_add:        21 sum_out:      -18478553265224
+counter_add:        21 sum_out:     -106489240236480
+counter_add:        21 sum_out:      -40836581801600
+counter_add:        21 sum_out:     -226603763054840
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        22 sum_out:       84091945756064
+counter_add:        22 sum_out:       30619583162392
+counter_add:        22 sum_out:      -53786490145992
+counter_add:        22 sum_out:      -19130367936288
+counter_add:        22 sum_out:       -6612384976336
+counter_add:        22 sum_out:      169730969707304
+counter_add:        22 sum_out:      -18478553265224
+counter_add:        22 sum_out:     -106489240236480
+counter_add:        22 sum_out:      -40836581801600
+counter_add:        22 sum_out:     -226603763054840
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        23 sum_out:       83260330627643
+counter_add:        23 sum_out:       26112955725022
+counter_add:        23 sum_out:      -62520903584520
+counter_add:        23 sum_out:        7474443320883
+counter_add:        23 sum_out:      -11917245116665
+counter_add:        23 sum_out:      179654386593905
+counter_add:        23 sum_out:      -31196275530203
+counter_add:        23 sum_out:      -95791154711952
+counter_add:        23 sum_out:      -53361864202151
+counter_add:        23 sum_out:     -223546325616938
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        24 sum_out:       82931349601844
+counter_add:        24 sum_out:       36543589425355
+counter_add:        24 sum_out:      -67064282064999
+counter_add:        24 sum_out:      -21662954591550
+counter_add:        24 sum_out:      -23465984264158
+counter_add:        24 sum_out:      163895550397298
+counter_add:        24 sum_out:      -32821828834151
+counter_add:        24 sum_out:      -61830851957250
+counter_add:        24 sum_out:      -68746565114516
+counter_add:        24 sum_out:     -218734171788584
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        25 sum_out:      -34635514951250
+counter_add:        25 sum_out:      131239701397861
+counter_add:        25 sum_out:     -208102533445443
+counter_add:        25 sum_out:       23944428359184
+counter_add:        25 sum_out:       36020131767096
+counter_add:        25 sum_out:       37068421923252
+counter_add:        25 sum_out:       17281563866617
+counter_add:        25 sum_out:       -8421055199064
+counter_add:        25 sum_out:       15645462255772
+counter_add:        25 sum_out:     -133321649338846
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        26 sum_out:      -34635514951250
+counter_add:        26 sum_out:      131239701397861
+counter_add:        26 sum_out:     -208102533445443
+counter_add:        26 sum_out:       23944428359184
+counter_add:        26 sum_out:       36020131767096
+counter_add:        26 sum_out:       37068421923252
+counter_add:        26 sum_out:       17281563866617
+counter_add:        26 sum_out:       -8421055199064
+counter_add:        26 sum_out:       15645462255772
+counter_add:        26 sum_out:     -133321649338846
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        27 sum_out:      -41009665722074
+counter_add:        27 sum_out:       83725600803061
+counter_add:        27 sum_out:     -217365415249107
+counter_add:        27 sum_out:       13466069563560
+counter_add:        27 sum_out:       42599492939160
+counter_add:        27 sum_out:       32326483113060
+counter_add:        27 sum_out:       90630075435985
+counter_add:        27 sum_out:       24081115274256
+counter_add:        27 sum_out:       -6432019834556
+counter_add:        27 sum_out:     -154849798970470
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        28 sum_out:      -14541558369509
+counter_add:        28 sum_out:       14947107096606
+counter_add:        28 sum_out:        7654308739268
+counter_add:        28 sum_out:     -159611756059815
+counter_add:        28 sum_out:     -112098320934200
+counter_add:        28 sum_out:     -181785442218665
+counter_add:        28 sum_out:      113833263462750
+counter_add:        28 sum_out:       47603374962406
+counter_add:        28 sum_out:      172159067286704
+counter_add:        28 sum_out:     -267430153541010
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter_add:        29 sum_out:       62508433852476
+counter_add:        29 sum_out:       15108650504216
+counter_add:        29 sum_out:       71693843440663
+counter_add:        29 sum_out:     -199276875836055
+counter_add:        29 sum_out:       -9909689204905
+counter_add:        29 sum_out:     -159672635000050
+counter_add:        29 sum_out:      120301212975135
+counter_add:        29 sum_out:      -22108818629294
+counter_add:        29 sum_out:      -16573338465656
+counter_add:        29 sum_out:     -139705236993365
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0
+counter:       820 neuron_out:        7853188808 activation function:1
+counter:       820 neuron_out:       -2275281556 activation function:1
+counter:       820 neuron_out:         981836043 activation function:1
+counter:       820 neuron_out:        2150202783 activation function:1
+counter:       820 neuron_out:        5831400454 activation function:1
+counter:       820 neuron_out:       -1596083156 activation function:1
+counter:       820 neuron_out:        3157083096 activation function:1
+counter:       820 neuron_out:        7420271195 activation function:1
+counter:       820 neuron_out:        6213207985 activation function:1
+counter:       820 neuron_out:       -2321659610 activation function:1
+counter:        40 neuron_out:     -156030566767692 activation function:0
+counter:        40 neuron_out:      -13430094641852 activation function:0
+counter:        40 neuron_out:       -8619820803697 activation function:0
+counter:        40 neuron_out:      117205510526122 activation function:0
+counter:        40 neuron_out:     -154524126663818 activation function:0
+counter:        40 neuron_out:      -27176690862141 activation function:0
+counter:        40 neuron_out:     -210402289747445 activation function:0
+counter:        40 neuron_out:       79951333626363 activation function:0
+counter:        40 neuron_out:       27771429709135 activation function:0
+counter:        40 neuron_out:       46678063840527 activation function:0

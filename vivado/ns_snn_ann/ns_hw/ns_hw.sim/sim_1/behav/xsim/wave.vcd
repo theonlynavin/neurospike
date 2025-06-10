@@ -1,0 +1,16 @@
+$date
+   Wed Mar 12 23:22:50 2025
+$end
+
+$version
+  2024.2.0
+  $dumpfile ("wave.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$enddefinitions $end
+$dumpvars
+$end

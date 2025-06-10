@@ -1,0 +1,1363 @@
+Analysis & Synthesis report for snn_rgb
+Thu Mar 13 14:07:31 2025
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Inverted Register Statistics
+ 13. Registers Packed Into Inferred Megafunctions
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Source assignments for control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated|altsyncram_ge81:altsyncram2
+ 16. Source assignments for control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated|altsyncram_ee81:altsyncram2
+ 17. Source assignments for control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated|altsyncram_ce81:altsyncram2
+ 18. Parameter Settings for User Entity Instance: control:control
+ 19. Parameter Settings for User Entity Instance: neuron:hidden0
+ 20. Parameter Settings for User Entity Instance: neuron:hidden1
+ 21. Parameter Settings for User Entity Instance: neuron:hidden2
+ 22. Parameter Settings for User Entity Instance: neuron:hidden3
+ 23. Parameter Settings for User Entity Instance: neuron:hidden4
+ 24. Parameter Settings for User Entity Instance: neuron:hidden5
+ 25. Parameter Settings for User Entity Instance: neuron:hidden6
+ 26. Parameter Settings for User Entity Instance: neuron:output0
+ 27. Parameter Settings for User Entity Instance: neuron:output1
+ 28. Parameter Settings for Inferred Entity Instance: control:control|altshift_taps:hs_delay_rtl_0
+ 29. Parameter Settings for Inferred Entity Instance: control:control|altshift_taps:vs_delay_rtl_0
+ 30. Parameter Settings for Inferred Entity Instance: control:control|altshift_taps:de_delay_rtl_0
+ 31. altshift_taps Parameter Settings by Entity Instance
+ 32. Port Connectivity Checks: "neuron:hidden6"
+ 33. Port Connectivity Checks: "neuron:hidden5"
+ 34. Port Connectivity Checks: "neuron:hidden4"
+ 35. Port Connectivity Checks: "neuron:hidden3"
+ 36. Port Connectivity Checks: "neuron:hidden2"
+ 37. Port Connectivity Checks: "neuron:hidden1"
+ 38. Port Connectivity Checks: "neuron:hidden0"
+ 39. Port Connectivity Checks: "gen_input:pseudo_random"
+ 40. Post-Synthesis Netlist Statistics for Top Partition
+ 41. Elapsed Time Per Partition
+ 42. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Mar 13 14:07:31 2025          ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
+; Revision Name                      ; snn_rgb                                        ;
+; Top-level Entity Name              ; snn_rgb                                        ;
+; Family                             ; Cyclone IV E                                   ;
+; Total logic elements               ; 1,092                                          ;
+;     Total combinational functions  ; 941                                            ;
+;     Dedicated logic registers      ; 646                                            ;
+; Total registers                    ; 646                                            ;
+; Total pins                         ; 63                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 219                                            ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29I8L     ;                    ;
+; Top-level entity name                                            ; snn_rgb            ; snn_rgb            ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 18          ;
+; Maximum allowed            ; 14          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 14          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.1%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processor 9            ;   0.0%      ;
+;     Processors 10-14       ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                    ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
+; snn/snn_rgb.vhd                  ; yes             ; User VHDL File               ; E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd                          ;         ;
+; snn/neuron.vhd                   ; yes             ; User VHDL File               ; E:/IIT Madras/ns_snn_ann/snn_power/snn/neuron.vhd                           ;         ;
+; snn/gen_input.vhd                ; yes             ; User VHDL File               ; E:/IIT Madras/ns_snn_ann/snn_power/snn/gen_input.vhd                        ;         ;
+; snn/control.vhd                  ; yes             ; User VHDL File               ; E:/IIT Madras/ns_snn_ann/snn_power/snn/control.vhd                          ;         ;
+; altshift_taps.tdf                ; yes             ; Megafunction                 ; d:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altshift_taps.tdf ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; d:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altdpram.inc      ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                 ; d:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/lpm_counter.inc   ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                 ; d:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/lpm_compare.inc   ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                 ; d:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/lpm_constant.inc  ;         ;
+; db/shift_taps_g6m.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/shift_taps_g6m.tdf                    ;         ;
+; db/altsyncram_ge81.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/altsyncram_ge81.tdf                   ;         ;
+; db/cntr_3rf.tdf                  ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/cntr_3rf.tdf                          ;         ;
+; db/cmpr_tgc.tdf                  ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/cmpr_tgc.tdf                          ;         ;
+; db/shift_taps_f6m.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/shift_taps_f6m.tdf                    ;         ;
+; db/altsyncram_ee81.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/altsyncram_ee81.tdf                   ;         ;
+; db/cntr_2rf.tdf                  ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/cntr_2rf.tdf                          ;         ;
+; db/shift_taps_e6m.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/shift_taps_e6m.tdf                    ;         ;
+; db/altsyncram_ce81.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/altsyncram_ce81.tdf                   ;         ;
+; db/cntr_1rf.tdf                  ; yes             ; Auto-Generated Megafunction  ; E:/IIT Madras/ns_snn_ann/snn_power/db/cntr_1rf.tdf                          ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 1,092     ;
+;                                             ;           ;
+; Total combinational functions               ; 941       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 119       ;
+;     -- 3 input functions                    ; 582       ;
+;     -- <=2 input functions                  ; 240       ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 287       ;
+;     -- arithmetic mode                      ; 654       ;
+;                                             ;           ;
+; Total registers                             ; 646       ;
+;     -- Dedicated logic registers            ; 646       ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 63        ;
+; Total memory bits                           ; 219       ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 650       ;
+; Total fan-out                               ; 4325      ;
+; Average fan-out                             ; 2.52      ;
++---------------------------------------------+-----------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                       ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                               ; Entity Name     ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; |snn_rgb                                  ; 941 (43)            ; 646 (83)                  ; 219         ; 0            ; 0       ; 0         ; 63   ; 0            ; |snn_rgb                                                                                                          ; snn_rgb         ; work         ;
+;    |control:control|                      ; 52 (1)              ; 31 (10)                   ; 219         ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control                                                                                          ; control         ; work         ;
+;       |altshift_taps:de_delay_rtl_0|      ; 17 (0)              ; 7 (0)                     ; 72          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:de_delay_rtl_0                                                             ; altshift_taps   ; work         ;
+;          |shift_taps_e6m:auto_generated|  ; 17 (0)              ; 7 (0)                     ; 72          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated                               ; shift_taps_e6m  ; work         ;
+;             |altsyncram_ce81:altsyncram2| ; 0 (0)               ; 0 (0)                     ; 72          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated|altsyncram_ce81:altsyncram2   ; altsyncram_ce81 ; work         ;
+;             |cntr_1rf:cntr1|              ; 17 (15)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated|cntr_1rf:cntr1                ; cntr_1rf        ; work         ;
+;                |cmpr_tgc:cmpr4|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated|cntr_1rf:cntr1|cmpr_tgc:cmpr4 ; cmpr_tgc        ; work         ;
+;       |altshift_taps:hs_delay_rtl_0|      ; 17 (0)              ; 7 (0)                     ; 74          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:hs_delay_rtl_0                                                             ; altshift_taps   ; work         ;
+;          |shift_taps_g6m:auto_generated|  ; 17 (0)              ; 7 (0)                     ; 74          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated                               ; shift_taps_g6m  ; work         ;
+;             |altsyncram_ge81:altsyncram2| ; 0 (0)               ; 0 (0)                     ; 74          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated|altsyncram_ge81:altsyncram2   ; altsyncram_ge81 ; work         ;
+;             |cntr_3rf:cntr1|              ; 17 (15)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated|cntr_3rf:cntr1                ; cntr_3rf        ; work         ;
+;                |cmpr_tgc:cmpr4|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated|cntr_3rf:cntr1|cmpr_tgc:cmpr4 ; cmpr_tgc        ; work         ;
+;       |altshift_taps:vs_delay_rtl_0|      ; 17 (0)              ; 7 (0)                     ; 73          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:vs_delay_rtl_0                                                             ; altshift_taps   ; work         ;
+;          |shift_taps_f6m:auto_generated|  ; 17 (0)              ; 7 (0)                     ; 73          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated                               ; shift_taps_f6m  ; work         ;
+;             |altsyncram_ee81:altsyncram2| ; 0 (0)               ; 0 (0)                     ; 73          ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated|altsyncram_ee81:altsyncram2   ; altsyncram_ee81 ; work         ;
+;             |cntr_2rf:cntr1|              ; 17 (15)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated|cntr_2rf:cntr1                ; cntr_2rf        ; work         ;
+;                |cmpr_tgc:cmpr4|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated|cntr_2rf:cntr1|cmpr_tgc:cmpr4 ; cmpr_tgc        ; work         ;
+;    |gen_input:pseudo_random|              ; 33 (33)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|gen_input:pseudo_random                                                                                  ; gen_input       ; work         ;
+;    |neuron:hidden0|                       ; 84 (84)             ; 51 (51)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden0                                                                                           ; neuron          ; work         ;
+;    |neuron:hidden1|                       ; 83 (83)             ; 52 (52)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden1                                                                                           ; neuron          ; work         ;
+;    |neuron:hidden2|                       ; 83 (83)             ; 50 (50)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden2                                                                                           ; neuron          ; work         ;
+;    |neuron:hidden3|                       ; 81 (81)             ; 49 (49)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden3                                                                                           ; neuron          ; work         ;
+;    |neuron:hidden4|                       ; 83 (83)             ; 51 (51)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden4                                                                                           ; neuron          ; work         ;
+;    |neuron:hidden5|                       ; 85 (85)             ; 55 (55)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden5                                                                                           ; neuron          ; work         ;
+;    |neuron:hidden6|                       ; 80 (80)             ; 45 (45)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:hidden6                                                                                           ; neuron          ; work         ;
+;    |neuron:output0|                       ; 112 (112)           ; 76 (76)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:output0                                                                                           ; neuron          ; work         ;
+;    |neuron:output1|                       ; 122 (122)           ; 92 (92)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |snn_rgb|neuron:output1                                                                                           ; neuron          ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                      ;
++-------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                                              ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++-------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated|altsyncram_ce81:altsyncram2|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 72           ; 1            ; 72           ; 1            ; 72   ; None ;
+; control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated|altsyncram_ge81:altsyncram2|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 74           ; 1            ; 74           ; 1            ; 74   ; None ;
+; control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated|altsyncram_ee81:altsyncram2|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 73           ; 1            ; 73           ; 1            ; 73   ; None ;
++-------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+
+
++---------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                          ;
++--------------------------------------------+------------------------------------------------+
+; Register name                              ; Reason for Removal                             ;
++--------------------------------------------+------------------------------------------------+
+; neuron:output1|tmp_sum_6[0,7,8]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_5[1,2,4..31]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_4[0,1,3,5,6]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_3[1..3,9..31]       ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_2[1,3,5,7]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_1[1,2,6..31]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_0[1..7]             ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_6[1,5,7,9..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_5[0,4,5,7]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_4[0,4,7..31]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_3[1,4,8]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_2[0,2,4,5,7..31]    ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_1[1,2,5,8]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_0[0,1,3..5,8..31]   ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_2[0,1,3..6,8..31]   ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_1[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_0[3,4,6]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_2[3,6..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_1[1..4,6..31]       ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_0[1..3,5,7..31]     ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_2[2,5]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_1[1,4,6..31]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_0[3..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_2[4..6]             ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_1[0..2,4,5,7..31]   ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_0[1,2,4..6,8..31]   ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_2[1,2,4]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_1[1,2,5]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_0[0,1,3,5..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_2[3,6]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_1[1,2,5..31]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_0[0,1,4,6..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_6[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_5[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_4[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_3[0..31]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_2[1,4..6,8..31]     ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_1[1,3,4,6..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_0[0..2,4..31]       ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_b_0[1]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_b_0[1]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_b_0[0,1]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_b_0[0,1]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_3_4[1]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_b_0[5,7]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_b_0[1,8..31]        ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_1_2[0,1,3..6,8..31] ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_1_2[7..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_b_0[8..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_b_0[5..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_b_0[8..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_5_6[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_3_4[0..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_1_2[8..31]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_b_0[1,4,5,7..31]    ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_3_4[3]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:output0|tmp_sum_1_2[2]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_b_0[5,6]            ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_3_4_5_6[0..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_b_0_1_2[9..31]      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|sum[9..31]                  ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_b_0[6]              ; Merged with neuron:hidden0|tmp_sum_b_0[2]      ;
+; neuron:hidden0|tmp_sum_b_0[2]              ; Merged with neuron:hidden0|tmp_sum_b_0[0]      ;
+; neuron:hidden0|tmp_sum_b_0[0]              ; Merged with neuron:hidden2|tmp_sum_b_0[3]      ;
+; neuron:hidden2|tmp_sum_b_0[3]              ; Merged with neuron:hidden3|tmp_sum_b_0[4]      ;
+; neuron:hidden3|tmp_sum_b_0[4]              ; Merged with neuron:hidden3|tmp_sum_b_0[2]      ;
+; neuron:hidden3|tmp_sum_b_0[2]              ; Merged with neuron:output0|tmp_sum_b_0[5]      ;
+; neuron:output0|tmp_sum_b_0[5]              ; Merged with neuron:output0|tmp_sum_b_0[4]      ;
+; neuron:output0|tmp_sum_b_0[4]              ; Merged with neuron:output0|tmp_sum_b_0[3]      ;
+; neuron:output0|tmp_sum_b_0[3]              ; Merged with neuron:output0|tmp_sum_b_0[0]      ;
+; neuron:output0|tmp_sum_b_0[0]              ; Merged with neuron:output1|tmp_sum_b_0[6]      ;
+; neuron:output1|tmp_sum_b_0[6]              ; Merged with neuron:output1|tmp_sum_b_0[4]      ;
+; neuron:output1|tmp_sum_b_0[4]              ; Merged with neuron:output1|tmp_sum_b_0[3]      ;
+; neuron:output1|tmp_sum_b_0[3]              ; Merged with neuron:output1|tmp_sum_b_0[2]      ;
+; r_out_1                                    ; Merged with g_out_1                            ;
+; control:control|de_delay[1]                ; Merged with de_q                               ;
+; control:control|vs_delay[1]                ; Merged with vs_q                               ;
+; neuron:output0|tmp_sum_6[0,2..4,6,8]       ; Merged with neuron:output1|tmp_sum_6[1]        ;
+; neuron:output1|tmp_sum_6[2..6,9..31]       ; Merged with neuron:output1|tmp_sum_6[1]        ;
+; neuron:output0|tmp_sum_5[1..3,6,8..31]     ; Merged with neuron:output1|tmp_sum_5[0]        ;
+; neuron:output1|tmp_sum_5[3]                ; Merged with neuron:output1|tmp_sum_5[0]        ;
+; neuron:output0|tmp_sum_4[1..3,5,6]         ; Merged with neuron:output1|tmp_sum_4[2]        ;
+; neuron:output1|tmp_sum_4[4,7..31]          ; Merged with neuron:output1|tmp_sum_4[2]        ;
+; neuron:output0|tmp_sum_3[0,2,3,5..7,9..31] ; Merged with neuron:output1|tmp_sum_3[0]        ;
+; neuron:output1|tmp_sum_3[4..8]             ; Merged with neuron:output1|tmp_sum_3[0]        ;
+; neuron:output0|tmp_sum_2[1,3,6]            ; Merged with neuron:output1|tmp_sum_2[0]        ;
+; neuron:output1|tmp_sum_2[2,4,6,8..31]      ; Merged with neuron:output1|tmp_sum_2[0]        ;
+; neuron:output0|tmp_sum_1[0,3,4,6,7,9..31]  ; Merged with neuron:output1|tmp_sum_1[0]        ;
+; neuron:output1|tmp_sum_1[3..5]             ; Merged with neuron:output1|tmp_sum_1[0]        ;
+; neuron:output0|tmp_sum_0[2,6,7]            ; Merged with neuron:output1|tmp_sum_0[0]        ;
+; neuron:output1|tmp_sum_0[8..31]            ; Merged with neuron:output1|tmp_sum_0[0]        ;
+; neuron:output1|tmp_sum_5_6[1,2]            ; Merged with neuron:output0|tmp_sum_5_6[0]      ;
+; neuron:output1|tmp_sum_5_6[0]              ; Merged with neuron:output0|tmp_sum_5_6[1]      ;
+; neuron:output1|tmp_sum_3_4[0]              ; Merged with neuron:output0|tmp_sum_3_4[0]      ;
+; neuron:output1|tmp_sum_3_4[2]              ; Merged with neuron:output0|tmp_sum_3_4[1]      ;
+; neuron:output1|tmp_sum_b_0[0]              ; Merged with neuron:output0|tmp_sum_b_0[2]      ;
+; neuron:output0|tmp_sum_b_0[6,7]            ; Merged with neuron:output0|tmp_sum_b_0[2]      ;
+; neuron:output1|tmp_sum_b_0[8..31]          ; Merged with neuron:output0|tmp_sum_b_0[2]      ;
+; neuron:hidden0|tmp_sum_2[0,2,3,7]          ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden1|tmp_sum_2[0..2,4,5,7..31]   ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden2|tmp_sum_2[0,3,5..31]        ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden3|tmp_sum_2[0..3,7..31]       ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden4|tmp_sum_2[0,1,3,4,6..31]    ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden5|tmp_sum_2[0..2,4,5]         ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden6|tmp_sum_2[7]                ; Merged with neuron:hidden6|tmp_sum_2[2]        ;
+; neuron:hidden0|tmp_sum_0[3]                ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden1|tmp_sum_0[2,3,5]            ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden2|tmp_sum_0[2,4]              ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden3|tmp_sum_0[0,3,7]            ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden4|tmp_sum_0[0..2]             ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden5|tmp_sum_0[0,4,6]            ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden6|tmp_sum_0[1,2,5,7..31]      ; Merged with neuron:hidden6|tmp_sum_0[0]        ;
+; neuron:hidden5|tmp_sum_b_0[9..31]          ; Merged with neuron:hidden5|tmp_sum_b_0[8]      ;
+; neuron:hidden0|tmp_sum_1[0,2,5]            ; Merged with neuron:hidden5|tmp_sum_1[0]        ;
+; neuron:hidden1|tmp_sum_1[0,3,4]            ; Merged with neuron:hidden5|tmp_sum_1[0]        ;
+; neuron:hidden2|tmp_sum_1[0,3,4,6..31]      ; Merged with neuron:hidden5|tmp_sum_1[0]        ;
+; neuron:hidden3|tmp_sum_1[3,6]              ; Merged with neuron:hidden5|tmp_sum_1[0]        ;
+; neuron:hidden4|tmp_sum_1[0,2,3,5]          ; Merged with neuron:hidden5|tmp_sum_1[0]        ;
+; neuron:hidden5|tmp_sum_1[5]                ; Merged with neuron:hidden5|tmp_sum_1[0]        ;
+; neuron:hidden4|tmp_sum_b_0[7..31]          ; Merged with neuron:hidden4|tmp_sum_b_0[6]      ;
+; neuron:hidden6|tmp_sum_1_2[2]              ; Merged with neuron:hidden3|tmp_sum_1_2[0]      ;
+; neuron:hidden3|tmp_sum_1_2[1,2]            ; Merged with neuron:hidden3|tmp_sum_1_2[0]      ;
+; neuron:hidden6|tmp_sum_1_2[7]              ; Merged with neuron:hidden3|tmp_sum_1_2[0]      ;
+; neuron:hidden0|tmp_sum_b_0[3]              ; Merged with neuron:hidden3|tmp_sum_b_0[0]      ;
+; neuron:hidden2|tmp_sum_b_0[2,4]            ; Merged with neuron:hidden3|tmp_sum_b_0[0]      ;
+; neuron:hidden3|tmp_sum_b_0[3,7]            ; Merged with neuron:hidden3|tmp_sum_b_0[0]      ;
+; control:control|ly1_delay[1]               ; Merged with control:control|ly2_delay[1]       ;
+; control:control|ly2_delay[2]               ; Merged with control:control|ly1_delay[2]       ;
+; control:control|ly1_delay[3]               ; Merged with control:control|ly2_delay[3]       ;
+; control:control|ly2_delay[4]               ; Merged with control:control|ly1_delay[4]       ;
+; control:control|ly1_delay[5]               ; Merged with control:control|ly2_delay[5]       ;
+; neuron:hidden6|tmp_sum_b_0[1,2,4]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden5|tmp_sum_b_0[5]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden4|tmp_sum_b_0[4]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_b_0_1_2[1]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|sum[1]                      ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|tmp_sum_b_0_1_2[4]          ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden6|sum[4]                      ; Stuck at GND due to stuck port data_in         ;
+; neuron:output1|tmp_sum_5_6[8]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden3|tmp_sum_1_2[5]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden2|tmp_sum_1_2[2]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden0|tmp_sum_1_2[6]              ; Stuck at GND due to stuck port data_in         ;
+; neuron:hidden1|tmp_sum_b_0[5]              ; Merged with neuron:hidden1|tmp_sum_b_0[3]      ;
+; neuron:hidden1|tmp_sum_b_0[3]              ; Merged with neuron:hidden4|tmp_sum_b_0[6]      ;
+; neuron:hidden4|tmp_sum_b_0[6]              ; Merged with neuron:hidden4|tmp_sum_b_0[5]      ;
+; neuron:hidden4|tmp_sum_b_0[5]              ; Merged with neuron:hidden4|tmp_sum_b_0[2]      ;
+; neuron:hidden4|tmp_sum_b_0[2]              ; Merged with neuron:hidden4|tmp_sum_b_0[1]      ;
+; neuron:hidden4|tmp_sum_b_0[1]              ; Merged with neuron:output1|tmp_sum_b_0[2]      ;
+; neuron:output0|tmp_sum_5_6[0]              ; Merged with neuron:output1|tmp_sum_5_6[9]      ;
+; neuron:output1|tmp_sum_5_6[10..31]         ; Merged with neuron:output1|tmp_sum_5_6[9]      ;
+; neuron:output1|tmp_sum_3_4[11..31]         ; Merged with neuron:output1|tmp_sum_3_4[10]     ;
+; neuron:output0|tmp_sum_1_2[1]              ; Merged with neuron:output1|tmp_sum_1_2[2]      ;
+; neuron:output1|tmp_sum_1_2[8..31]          ; Merged with neuron:output1|tmp_sum_1_2[2]      ;
+; neuron:output0|tmp_sum_1_2[0,9..31]        ; Merged with neuron:output1|tmp_sum_1_2[3]      ;
+; neuron:output0|tmp_sum_5_6[11..31]         ; Merged with neuron:output0|tmp_sum_5_6[10]     ;
+; neuron:output0|tmp_sum_3_4[9..31]          ; Merged with neuron:output0|tmp_sum_3_4[0]      ;
+; neuron:hidden5|tmp_sum_b_0[0]              ; Merged with neuron:hidden6|tmp_sum_b_0[0]      ;
+; neuron:hidden4|tmp_sum_b_0[0]              ; Merged with neuron:hidden6|tmp_sum_b_0[0]      ;
+; neuron:hidden1|tmp_sum_b_0[2]              ; Merged with neuron:hidden6|tmp_sum_b_0[0]      ;
+; neuron:hidden6|tmp_sum_b_0[5]              ; Merged with neuron:hidden6|tmp_sum_b_0[0]      ;
+; neuron:hidden5|tmp_sum_b_0[1,2,6..8]       ; Merged with neuron:hidden6|tmp_sum_b_0[0]      ;
+; neuron:hidden1|tmp_sum_b_0[4,6]            ; Merged with neuron:hidden6|tmp_sum_b_0[0]      ;
+; neuron:hidden3|tmp_sum_b_0[0]              ; Merged with neuron:hidden6|tmp_sum_b_0[3]      ;
+; neuron:hidden6|tmp_sum_b_0[7..31]          ; Merged with neuron:hidden6|tmp_sum_b_0[3]      ;
+; neuron:hidden5|tmp_sum_b_0[3,4]            ; Merged with neuron:hidden6|tmp_sum_b_0[3]      ;
+; neuron:hidden6|tmp_sum_b_0[6]              ; Merged with neuron:hidden6|tmp_sum_b_0[3]      ;
+; neuron:hidden4|tmp_sum_b_0[3]              ; Merged with neuron:hidden6|tmp_sum_b_0[3]      ;
+; neuron:hidden1|tmp_sum_b_0[7]              ; Merged with neuron:hidden6|tmp_sum_b_0[3]      ;
+; neuron:hidden5|tmp_sum_b_0_1_2[10..31]     ; Merged with neuron:hidden5|tmp_sum_b_0_1_2[9]  ;
+; neuron:hidden3|tmp_sum_1_2[0]              ; Merged with neuron:hidden5|tmp_sum_1_2[4]      ;
+; neuron:hidden0|tmp_sum_1_2[7]              ; Merged with neuron:hidden5|tmp_sum_1_2[4]      ;
+; neuron:hidden3|tmp_sum_1_2[7..31]          ; Merged with neuron:hidden5|tmp_sum_1_2[4]      ;
+; neuron:hidden1|tmp_sum_1_2[7..31]          ; Merged with neuron:hidden5|tmp_sum_1_2[4]      ;
+; neuron:hidden4|tmp_sum_1_2[8..31]          ; Merged with neuron:hidden4|tmp_sum_1_2[7]      ;
+; neuron:hidden0|tmp_sum_1_2[5]              ; Merged with neuron:hidden3|tmp_sum_1_2[6]      ;
+; neuron:hidden6|tmp_sum_b_0_1_2[3,6]        ; Merged with neuron:hidden2|tmp_sum_b_0_1_2[2]  ;
+; neuron:hidden2|tmp_sum_1_2[8..31]          ; Merged with neuron:hidden2|tmp_sum_1_2[7]      ;
+; neuron:hidden2|sum[2]                      ; Merged with neuron:hidden6|sum[3]              ;
+; neuron:hidden6|sum[6]                      ; Merged with neuron:hidden6|sum[3]              ;
+; neuron:hidden6|tmp_sum_b_0_1_2[5]          ; Merged with neuron:hidden6|tmp_sum_b_0_1_2[0]  ;
+; neuron:hidden5|sum[10..31]                 ; Merged with neuron:hidden5|sum[9]              ;
+; neuron:hidden6|sum[5]                      ; Merged with neuron:hidden6|sum[0]              ;
+; neuron:output0|tmp_sum_5_6[2,6,8]          ; Merged with neuron:output1|tmp_sum_5_6[3]      ;
+; neuron:output0|tmp_sum_3_4[2,5]            ; Merged with neuron:output1|tmp_sum_3_4[4]      ;
+; neuron:output1|tmp_sum_1_2[4]              ; Merged with neuron:output1|tmp_sum_1_2[0]      ;
+; neuron:output0|tmp_sum_1_2[3,6]            ; Merged with neuron:output1|tmp_sum_1_2[0]      ;
+; neuron:output0|tmp_sum_1_2[4,7]            ; Merged with neuron:output1|tmp_sum_1_2[5]      ;
+; neuron:output0|tmp_sum_3_4[6]              ; Merged with neuron:output0|tmp_sum_3_4[3]      ;
+; neuron:output0|tmp_sum_1_2[8]              ; Merged with neuron:output0|tmp_sum_1_2[5]      ;
+; neuron:hidden3|tmp_sum_b_0_1_2[0,7]        ; Merged with neuron:hidden6|tmp_sum_b_0_1_2[7]  ;
+; neuron:hidden5|tmp_sum_1_2[5]              ; Merged with neuron:hidden5|tmp_sum_1_2[0]      ;
+; neuron:hidden0|tmp_sum_1_2[0,2]            ; Merged with neuron:hidden5|tmp_sum_1_2[0]      ;
+; neuron:hidden4|tmp_sum_1_2[0]              ; Merged with neuron:hidden5|tmp_sum_1_2[0]      ;
+; neuron:hidden3|tmp_sum_1_2[3]              ; Merged with neuron:hidden5|tmp_sum_1_2[0]      ;
+; neuron:hidden2|tmp_sum_1_2[0,3]            ; Merged with neuron:hidden5|tmp_sum_1_2[0]      ;
+; neuron:hidden1|tmp_sum_1_2[0]              ; Merged with neuron:hidden5|tmp_sum_1_2[0]      ;
+; neuron:hidden0|tmp_sum_1_2[3]              ; Merged with neuron:hidden5|tmp_sum_1_2[1]      ;
+; neuron:hidden4|tmp_sum_1_2[1]              ; Merged with neuron:hidden5|tmp_sum_1_2[1]      ;
+; neuron:hidden1|tmp_sum_1_2[1]              ; Merged with neuron:hidden5|tmp_sum_1_2[1]      ;
+; neuron:hidden1|tmp_sum_1_2[2]              ; Merged with neuron:hidden5|tmp_sum_1_2[2]      ;
+; neuron:hidden0|tmp_sum_1_2[1]              ; Merged with neuron:hidden5|tmp_sum_1_2[6]      ;
+; neuron:hidden3|tmp_sum_1_2[4]              ; Merged with neuron:hidden5|tmp_sum_1_2[6]      ;
+; neuron:hidden2|tmp_sum_1_2[1]              ; Merged with neuron:hidden5|tmp_sum_1_2[6]      ;
+; neuron:hidden6|sum[7]                      ; Merged with neuron:hidden3|sum[0]              ;
+; neuron:hidden3|sum[7]                      ; Merged with neuron:hidden3|sum[0]              ;
+; neuron:hidden3|tmp_sum_b_0_1_2[8]          ; Merged with neuron:hidden3|tmp_sum_b_0_1_2[1]  ;
+; neuron:hidden1|tmp_sum_b_0_1_2[0]          ; Merged with neuron:hidden2|tmp_sum_b_0_1_2[0]  ;
+; neuron:hidden2|sum[0]                      ; Merged with neuron:hidden1|sum[0]              ;
+; neuron:hidden3|sum[8]                      ; Merged with neuron:hidden3|sum[1]              ;
+; neuron:hidden1|voltage[0]                  ; Merged with neuron:hidden2|voltage[0]          ;
+; neuron:output1|tmp_sum_3_4_5_6[12..31]     ; Merged with neuron:output1|tmp_sum_3_4_5_6[11] ;
+; neuron:output1|tmp_sum_b_0_1_2[10..31]     ; Merged with neuron:output1|tmp_sum_b_0_1_2[9]  ;
+; neuron:output0|tmp_sum_3_4_5_6[12..31]     ; Merged with neuron:output0|tmp_sum_3_4_5_6[11] ;
+; neuron:output0|tmp_sum_b_0_1_2[11..31]     ; Merged with neuron:output0|tmp_sum_b_0_1_2[10] ;
+; neuron:hidden6|tmp_sum_b_0_1_2[10..31]     ; Merged with neuron:hidden6|tmp_sum_b_0_1_2[9]  ;
+; neuron:hidden5|tmp_sum_b_0_1_2[9]          ; Merged with neuron:hidden5|tmp_sum_b_0_1_2[8]  ;
+; neuron:hidden4|tmp_sum_b_0_1_2[9..31]      ; Merged with neuron:hidden4|tmp_sum_b_0_1_2[8]  ;
+; neuron:hidden3|tmp_sum_b_0_1_2[10..31]     ; Merged with neuron:hidden3|tmp_sum_b_0_1_2[9]  ;
+; neuron:hidden2|tmp_sum_b_0_1_2[9..31]      ; Merged with neuron:hidden2|tmp_sum_b_0_1_2[8]  ;
+; neuron:hidden1|tmp_sum_b_0_1_2[10..31]     ; Merged with neuron:hidden1|tmp_sum_b_0_1_2[9]  ;
+; neuron:hidden6|sum[10..31]                 ; Merged with neuron:hidden6|sum[9]              ;
+; neuron:hidden5|sum[9]                      ; Merged with neuron:hidden5|sum[8]              ;
+; neuron:hidden4|sum[9..31]                  ; Merged with neuron:hidden4|sum[8]              ;
+; neuron:hidden3|sum[10..31]                 ; Merged with neuron:hidden3|sum[9]              ;
+; neuron:hidden2|sum[9..31]                  ; Merged with neuron:hidden2|sum[8]              ;
+; neuron:hidden1|sum[10..31]                 ; Merged with neuron:hidden1|sum[9]              ;
+; neuron:output1|sum[13..31]                 ; Merged with neuron:output1|sum[12]             ;
+; neuron:output0|sum[13..31]                 ; Merged with neuron:output0|sum[12]             ;
+; neuron:output0|tmp_sum_1_2[5]              ; Merged with neuron:output1|tmp_sum_1_2[1]      ;
+; neuron:output1|tmp_sum_1_2[7]              ; Merged with neuron:output1|tmp_sum_1_2[1]      ;
+; neuron:output1|tmp_sum_5_6[5]              ; Merged with neuron:output1|tmp_sum_5_6[4]      ;
+; neuron:output0|tmp_sum_5_6[4]              ; Merged with neuron:output1|tmp_sum_5_6[4]      ;
+; neuron:output1|tmp_sum_3_4[6]              ; Merged with neuron:output1|tmp_sum_3_4[5]      ;
+; neuron:output0|tmp_sum_3_4[7]              ; Merged with neuron:output1|tmp_sum_3_4[5]      ;
+; neuron:output0|tmp_sum_3_4[3]              ; Merged with neuron:output1|tmp_sum_3_4[7]      ;
+; neuron:output1|tmp_sum_3_4[8]              ; Merged with neuron:output1|tmp_sum_3_4[7]      ;
+; neuron:output0|tmp_sum_5_6[7]              ; Merged with neuron:output1|tmp_sum_5_6[7]      ;
+; neuron:output0|tmp_sum_5_6[10]             ; Merged with neuron:output0|tmp_sum_5_6[9]      ;
+; neuron:hidden6|tmp_sum_b_0_1_2[8]          ; Merged with neuron:hidden6|tmp_sum_b_0_1_2[9]  ;
+; neuron:hidden0|tmp_sum_1_2[4]              ; Merged with neuron:hidden5|tmp_sum_1_2[6]      ;
+; neuron:hidden5|tmp_sum_1_2[3]              ; Merged with neuron:hidden5|tmp_sum_1_2[6]      ;
+; neuron:hidden4|tmp_sum_1_2[2]              ; Merged with neuron:hidden2|tmp_sum_1_2[4]      ;
+; neuron:hidden1|tmp_sum_1_2[3]              ; Merged with neuron:hidden2|tmp_sum_1_2[4]      ;
+; neuron:hidden5|tmp_sum_1_2[1,2]            ; Merged with neuron:hidden2|tmp_sum_1_2[5]      ;
+; neuron:hidden1|tmp_sum_1_2[5]              ; Merged with neuron:hidden2|tmp_sum_1_2[5]      ;
+; neuron:hidden4|tmp_sum_1_2[4]              ; Merged with neuron:hidden2|tmp_sum_1_2[5]      ;
+; neuron:hidden1|tmp_sum_1_2[4]              ; Merged with neuron:hidden2|tmp_sum_1_2[6]      ;
+; neuron:hidden4|tmp_sum_1_2[3]              ; Merged with neuron:hidden2|tmp_sum_1_2[6]      ;
+; neuron:hidden2|tmp_sum_1_2[7]              ; Merged with neuron:hidden2|tmp_sum_1_2[6]      ;
+; neuron:hidden4|tmp_sum_1_2[7]              ; Merged with neuron:hidden4|tmp_sum_1_2[6]      ;
+; neuron:hidden6|sum[8]                      ; Merged with neuron:hidden6|sum[9]              ;
+; neuron:output0|tmp_sum_3_4_5_6[11]         ; Merged with neuron:output0|tmp_sum_3_4_5_6[10] ;
+; neuron:hidden2|tmp_sum_b_0_1_2[7]          ; Merged with neuron:hidden2|tmp_sum_b_0_1_2[8]  ;
+; neuron:hidden4|tmp_sum_b_0_1_2[7]          ; Merged with neuron:hidden4|tmp_sum_b_0_1_2[8]  ;
+; neuron:hidden2|sum[7]                      ; Merged with neuron:hidden2|sum[8]              ;
+; neuron:hidden4|sum[7]                      ; Merged with neuron:hidden4|sum[8]              ;
+; neuron:output0|sum[12]                     ; Merged with neuron:output0|sum[11]             ;
+; Total Number of Removed Registers = 3816   ;                                                ;
++--------------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                             ;
++-----------------------------------+---------------------------+-------------------------------------------------------------------------+
+; Register name                     ; Reason for Removal        ; Registers Removed due to This Register                                  ;
++-----------------------------------+---------------------------+-------------------------------------------------------------------------+
+; neuron:hidden1|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden1|tmp_sum_5_6[23], neuron:hidden1|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden1|tmp_sum_5_6[25], neuron:hidden1|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_5_6[27], neuron:hidden1|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_5_6[29], neuron:hidden1|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_5_6[31]                                          ;
+; neuron:output0|tmp_sum_0[0]       ; Stuck at GND              ; neuron:output0|tmp_sum_b_0[23], neuron:output0|tmp_sum_b_0[24],         ;
+;                                   ; due to stuck port data_in ; neuron:output0|tmp_sum_b_0[25], neuron:output0|tmp_sum_b_0[26],         ;
+;                                   ;                           ; neuron:output0|tmp_sum_b_0[27], neuron:output0|tmp_sum_b_0[28],         ;
+;                                   ;                           ; neuron:output0|tmp_sum_b_0[29], neuron:output0|tmp_sum_b_0[30],         ;
+;                                   ;                           ; neuron:output0|tmp_sum_b_0[31]                                          ;
+; neuron:hidden6|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden6|tmp_sum_5_6[23], neuron:hidden6|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden6|tmp_sum_5_6[25], neuron:hidden6|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_5_6[27], neuron:hidden6|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_5_6[29], neuron:hidden6|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_5_6[31]                                          ;
+; neuron:hidden6|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden6|tmp_sum_3_4[23], neuron:hidden6|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden6|tmp_sum_3_4[25], neuron:hidden6|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_3_4[27], neuron:hidden6|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_3_4[29], neuron:hidden6|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_3_4[31]                                          ;
+; neuron:hidden6|tmp_sum_2[0]       ; Stuck at GND              ; neuron:hidden6|tmp_sum_1_2[23], neuron:hidden6|tmp_sum_1_2[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden6|tmp_sum_1_2[25], neuron:hidden6|tmp_sum_1_2[26],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_1_2[27], neuron:hidden6|tmp_sum_1_2[28],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_1_2[29], neuron:hidden6|tmp_sum_1_2[30],         ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_1_2[31]                                          ;
+; neuron:hidden5|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden5|tmp_sum_5_6[23], neuron:hidden5|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden5|tmp_sum_5_6[25], neuron:hidden5|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_5_6[27], neuron:hidden5|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_5_6[29], neuron:hidden5|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_5_6[31]                                          ;
+; neuron:hidden5|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden5|tmp_sum_3_4[23], neuron:hidden5|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden5|tmp_sum_3_4[25], neuron:hidden5|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_3_4[27], neuron:hidden5|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_3_4[29], neuron:hidden5|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_3_4[31]                                          ;
+; neuron:hidden5|tmp_sum_2[3]       ; Stuck at GND              ; neuron:hidden5|tmp_sum_1_2[23], neuron:hidden5|tmp_sum_1_2[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden5|tmp_sum_1_2[25], neuron:hidden5|tmp_sum_1_2[26],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_1_2[27], neuron:hidden5|tmp_sum_1_2[28],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_1_2[29], neuron:hidden5|tmp_sum_1_2[30],         ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_1_2[31]                                          ;
+; neuron:hidden4|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden4|tmp_sum_5_6[23], neuron:hidden4|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden4|tmp_sum_5_6[25], neuron:hidden4|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_5_6[27], neuron:hidden4|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_5_6[29], neuron:hidden4|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_5_6[31]                                          ;
+; neuron:hidden4|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden4|tmp_sum_3_4[23], neuron:hidden4|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden4|tmp_sum_3_4[25], neuron:hidden4|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_3_4[27], neuron:hidden4|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_3_4[29], neuron:hidden4|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_3_4[31]                                          ;
+; neuron:hidden3|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden3|tmp_sum_5_6[23], neuron:hidden3|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden3|tmp_sum_5_6[25], neuron:hidden3|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_5_6[27], neuron:hidden3|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_5_6[29], neuron:hidden3|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_5_6[31]                                          ;
+; neuron:hidden3|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden3|tmp_sum_3_4[23], neuron:hidden3|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden3|tmp_sum_3_4[25], neuron:hidden3|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_3_4[27], neuron:hidden3|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_3_4[29], neuron:hidden3|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_3_4[31]                                          ;
+; neuron:hidden2|tmp_sum_0[3]       ; Stuck at GND              ; neuron:hidden2|tmp_sum_b_0[23], neuron:hidden2|tmp_sum_b_0[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden2|tmp_sum_b_0[25], neuron:hidden2|tmp_sum_b_0[26],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_b_0[27], neuron:hidden2|tmp_sum_b_0[28],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_b_0[29], neuron:hidden2|tmp_sum_b_0[30],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_b_0[31]                                          ;
+; neuron:hidden3|tmp_sum_0[2]       ; Stuck at GND              ; neuron:hidden3|tmp_sum_b_0[23], neuron:hidden3|tmp_sum_b_0[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden3|tmp_sum_b_0[25], neuron:hidden3|tmp_sum_b_0[26],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_b_0[27], neuron:hidden3|tmp_sum_b_0[28],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_b_0[29], neuron:hidden3|tmp_sum_b_0[30],         ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_b_0[31]                                          ;
+; neuron:hidden2|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden2|tmp_sum_5_6[23], neuron:hidden2|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden2|tmp_sum_5_6[25], neuron:hidden2|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_5_6[27], neuron:hidden2|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_5_6[29], neuron:hidden2|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_5_6[31]                                          ;
+; neuron:hidden2|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden2|tmp_sum_3_4[23], neuron:hidden2|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden2|tmp_sum_3_4[25], neuron:hidden2|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_3_4[27], neuron:hidden2|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_3_4[29], neuron:hidden2|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_3_4[31]                                          ;
+; neuron:hidden1|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden1|tmp_sum_3_4[23], neuron:hidden1|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden1|tmp_sum_3_4[25], neuron:hidden1|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_3_4[27], neuron:hidden1|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_3_4[29], neuron:hidden1|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_3_4[31]                                          ;
+; neuron:hidden1|tmp_sum_0[4]       ; Stuck at GND              ; neuron:hidden1|tmp_sum_b_0[23], neuron:hidden1|tmp_sum_b_0[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden1|tmp_sum_b_0[25], neuron:hidden1|tmp_sum_b_0[26],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_b_0[27], neuron:hidden1|tmp_sum_b_0[28],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_b_0[29], neuron:hidden1|tmp_sum_b_0[30],         ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_b_0[31]                                          ;
+; neuron:hidden0|tmp_sum_6[0]       ; Stuck at GND              ; neuron:hidden0|tmp_sum_5_6[23], neuron:hidden0|tmp_sum_5_6[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|tmp_sum_5_6[25], neuron:hidden0|tmp_sum_5_6[26],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_5_6[27], neuron:hidden0|tmp_sum_5_6[28],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_5_6[29], neuron:hidden0|tmp_sum_5_6[30],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_5_6[31]                                          ;
+; neuron:hidden0|tmp_sum_4[0]       ; Stuck at GND              ; neuron:hidden0|tmp_sum_3_4[23], neuron:hidden0|tmp_sum_3_4[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|tmp_sum_3_4[25], neuron:hidden0|tmp_sum_3_4[26],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_3_4[27], neuron:hidden0|tmp_sum_3_4[28],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_3_4[29], neuron:hidden0|tmp_sum_3_4[30],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_3_4[31]                                          ;
+; neuron:hidden0|tmp_sum_2[1]       ; Stuck at GND              ; neuron:hidden0|tmp_sum_1_2[23], neuron:hidden0|tmp_sum_1_2[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|tmp_sum_1_2[25], neuron:hidden0|tmp_sum_1_2[26],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_1_2[27], neuron:hidden0|tmp_sum_1_2[28],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_1_2[29], neuron:hidden0|tmp_sum_1_2[30],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_1_2[31]                                          ;
+; neuron:hidden0|tmp_sum_0[0]       ; Stuck at GND              ; neuron:hidden0|tmp_sum_b_0[23], neuron:hidden0|tmp_sum_b_0[24],         ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|tmp_sum_b_0[25], neuron:hidden0|tmp_sum_b_0[26],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_b_0[27], neuron:hidden0|tmp_sum_b_0[28],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_b_0[29], neuron:hidden0|tmp_sum_b_0[30],         ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_b_0[31]                                          ;
+; neuron:hidden6|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden6|tmp_sum_3_4_5_6[23], neuron:hidden6|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden6|tmp_sum_3_4_5_6[25], neuron:hidden6|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_3_4_5_6[27], neuron:hidden6|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_3_4_5_6[29], neuron:hidden6|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden6|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden5|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden5|tmp_sum_3_4_5_6[23], neuron:hidden5|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden5|tmp_sum_3_4_5_6[25], neuron:hidden5|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_3_4_5_6[27], neuron:hidden5|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_3_4_5_6[29], neuron:hidden5|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden5|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden4|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden4|tmp_sum_3_4_5_6[23], neuron:hidden4|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden4|tmp_sum_3_4_5_6[25], neuron:hidden4|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_3_4_5_6[27], neuron:hidden4|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_3_4_5_6[29], neuron:hidden4|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden4|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden3|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden3|tmp_sum_3_4_5_6[23], neuron:hidden3|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden3|tmp_sum_3_4_5_6[25], neuron:hidden3|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_3_4_5_6[27], neuron:hidden3|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_3_4_5_6[29], neuron:hidden3|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden3|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden2|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden2|tmp_sum_3_4_5_6[23], neuron:hidden2|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden2|tmp_sum_3_4_5_6[25], neuron:hidden2|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_3_4_5_6[27], neuron:hidden2|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_3_4_5_6[29], neuron:hidden2|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden2|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden1|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden1|tmp_sum_3_4_5_6[23], neuron:hidden1|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden1|tmp_sum_3_4_5_6[25], neuron:hidden1|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_3_4_5_6[27], neuron:hidden1|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_3_4_5_6[29], neuron:hidden1|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden1|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden0|tmp_sum_5_6[0]     ; Stuck at GND              ; neuron:hidden0|tmp_sum_3_4_5_6[23], neuron:hidden0|tmp_sum_3_4_5_6[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|tmp_sum_3_4_5_6[25], neuron:hidden0|tmp_sum_3_4_5_6[26], ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_3_4_5_6[27], neuron:hidden0|tmp_sum_3_4_5_6[28], ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_3_4_5_6[29], neuron:hidden0|tmp_sum_3_4_5_6[30], ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_3_4_5_6[31]                                      ;
+; neuron:hidden0|tmp_sum_1_2[8]     ; Stuck at GND              ; neuron:hidden0|tmp_sum_b_0_1_2[23], neuron:hidden0|tmp_sum_b_0_1_2[24], ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|tmp_sum_b_0_1_2[25], neuron:hidden0|tmp_sum_b_0_1_2[26], ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_b_0_1_2[27], neuron:hidden0|tmp_sum_b_0_1_2[28], ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_b_0_1_2[29], neuron:hidden0|tmp_sum_b_0_1_2[30], ;
+;                                   ;                           ; neuron:hidden0|tmp_sum_b_0_1_2[31]                                      ;
+; neuron:hidden0|tmp_sum_3_4_5_6[0] ; Stuck at GND              ; neuron:hidden0|sum[23], neuron:hidden0|sum[24], neuron:hidden0|sum[25], ;
+;                                   ; due to stuck port data_in ; neuron:hidden0|sum[26], neuron:hidden0|sum[27], neuron:hidden0|sum[28], ;
+;                                   ;                           ; neuron:hidden0|sum[29], neuron:hidden0|sum[30], neuron:hidden0|sum[31]  ;
+; neuron:hidden6|tmp_sum_b_0[1]     ; Stuck at GND              ; neuron:hidden6|tmp_sum_b_0_1_2[1], neuron:hidden6|sum[1]                ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:hidden3|tmp_sum_0[1]       ; Stuck at GND              ; neuron:hidden3|tmp_sum_b_0[1]                                           ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:hidden1|tmp_sum_0[0]       ; Stuck at GND              ; neuron:hidden1|tmp_sum_b_0[0]                                           ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:hidden1|tmp_sum_0[1]       ; Stuck at GND              ; neuron:hidden1|tmp_sum_b_0[1]                                           ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:hidden2|tmp_sum_0[0]       ; Stuck at GND              ; neuron:hidden2|tmp_sum_b_0[0]                                           ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:hidden2|tmp_sum_0[1]       ; Stuck at GND              ; neuron:hidden2|tmp_sum_b_0[1]                                           ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:output1|tmp_sum_0[1]       ; Stuck at GND              ; neuron:output1|tmp_sum_b_0[1]                                           ;
+;                                   ; due to stuck port data_in ;                                                                         ;
+; neuron:hidden6|tmp_sum_b_0_1_2[4] ; Stuck at GND              ; neuron:hidden6|sum[4]                                                   ;
+;                                   ; due to stuck port data_in ;                                                                         ;
++-----------------------------------+---------------------------+-------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 646   ;
+; Number of registers using Synchronous Clear  ; 232   ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 2     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; neuron_reset                           ; 1       ;
+; gen_input:pseudo_random|random[0]      ; 4       ;
+; step[0]                                ; 1       ;
+; frame_reset                            ; 8       ;
+; Total number of inverted registers = 4 ;         ;
++----------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                                  ;
++---------------------------------+--------------------------------+------------+
+; Register Name                   ; Megafunction                   ; Type       ;
++---------------------------------+--------------------------------+------------+
+; hs_out~reg0                     ; control:control|hs_delay_rtl_0 ; SHIFT_TAPS ;
+; control:control|hs_delay[1..75] ; control:control|hs_delay_rtl_0 ; SHIFT_TAPS ;
+; vs_out~reg0                     ; control:control|vs_delay_rtl_0 ; SHIFT_TAPS ;
+; control:control|vs_delay[2..75] ; control:control|vs_delay_rtl_0 ; SHIFT_TAPS ;
+; control:control|de_delay[2..75] ; control:control|de_delay_rtl_0 ; SHIFT_TAPS ;
++---------------------------------+--------------------------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |snn_rgb|step[1]                    ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:output1|voltage[31] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:output0|voltage[31] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden2|voltage[31] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden1|voltage[16] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden0|voltage[13] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden3|voltage[8]  ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden5|voltage[30] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden6|voltage[24] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; Yes        ; |snn_rgb|neuron:hidden4|voltage[8]  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for control:control|altshift_taps:hs_delay_rtl_0|shift_taps_g6m:auto_generated|altsyncram_ge81:altsyncram2 ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                              ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                               ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for control:control|altshift_taps:vs_delay_rtl_0|shift_taps_f6m:auto_generated|altsyncram_ee81:altsyncram2 ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                              ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                               ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for control:control|altshift_taps:de_delay_rtl_0|shift_taps_e6m:auto_generated|altsyncram_ce81:altsyncram2 ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                              ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                               ;
++---------------------------------+--------------------+------+-----------------------------------------------------------------+
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: control:control ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; delay          ; 75    ; Signed Integer                      ;
+; layer_delay    ; 5     ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden0 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 8     ; Signed Integer                     ;
+; w_1            ; 37    ; Signed Integer                     ;
+; w_2            ; 141   ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; 69    ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden1 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 44    ; Signed Integer                     ;
+; w_1            ; 25    ; Signed Integer                     ;
+; w_2            ; -73   ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; 124   ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden2 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 20    ; Signed Integer                     ;
+; w_1            ; -39   ; Signed Integer                     ;
+; w_2            ; -23   ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; 8     ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden3 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 137   ; Signed Integer                     ;
+; w_1            ; 72    ; Signed Integer                     ;
+; w_2            ; -113  ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; 20    ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden4 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 7     ; Signed Integer                     ;
+; w_1            ; 45    ; Signed Integer                     ;
+; w_2            ; -37   ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; -25   ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden5 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 81    ; Signed Integer                     ;
+; w_1            ; 33    ; Signed Integer                     ;
+; w_2            ; 55    ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; -57   ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:hidden6 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; -89   ; Signed Integer                     ;
+; w_1            ; 0     ; Signed Integer                     ;
+; w_2            ; 132   ; Signed Integer                     ;
+; w_3            ; 0     ; Signed Integer                     ;
+; w_4            ; 0     ; Signed Integer                     ;
+; w_5            ; 0     ; Signed Integer                     ;
+; w_6            ; 0     ; Signed Integer                     ;
+; bias           ; 33    ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:output0 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; 196   ; Signed Integer                     ;
+; w_1            ; -295  ; Signed Integer                     ;
+; w_2            ; 74    ; Signed Integer                     ;
+; w_3            ; -275  ; Signed Integer                     ;
+; w_4            ; 110   ; Signed Integer                     ;
+; w_5            ; -178  ; Signed Integer                     ;
+; w_6            ; 349   ; Signed Integer                     ;
+; bias           ; 57    ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: neuron:output1 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; w_0            ; -255  ; Signed Integer                     ;
+; w_1            ; 57    ; Signed Integer                     ;
+; w_2            ; -171  ; Signed Integer                     ;
+; w_3            ; 497   ; Signed Integer                     ;
+; w_4            ; -108  ; Signed Integer                     ;
+; w_5            ; 9     ; Signed Integer                     ;
+; w_6            ; -386  ; Signed Integer                     ;
+; bias           ; 92    ; Signed Integer                     ;
+; v_th           ; 256   ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: control:control|altshift_taps:hs_delay_rtl_0 ;
++----------------+----------------+-------------------------------------------------------------+
+; Parameter Name ; Value          ; Type                                                        ;
++----------------+----------------+-------------------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                                     ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                                     ;
+; TAP_DISTANCE   ; 76             ; Untyped                                                     ;
+; WIDTH          ; 1              ; Untyped                                                     ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                                     ;
+; CBXI_PARAMETER ; shift_taps_g6m ; Untyped                                                     ;
++----------------+----------------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: control:control|altshift_taps:vs_delay_rtl_0 ;
++----------------+----------------+-------------------------------------------------------------+
+; Parameter Name ; Value          ; Type                                                        ;
++----------------+----------------+-------------------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                                     ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                                     ;
+; TAP_DISTANCE   ; 75             ; Untyped                                                     ;
+; WIDTH          ; 1              ; Untyped                                                     ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                                     ;
+; CBXI_PARAMETER ; shift_taps_f6m ; Untyped                                                     ;
++----------------+----------------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: control:control|altshift_taps:de_delay_rtl_0 ;
++----------------+----------------+-------------------------------------------------------------+
+; Parameter Name ; Value          ; Type                                                        ;
++----------------+----------------+-------------------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                                     ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                                     ;
+; TAP_DISTANCE   ; 74             ; Untyped                                                     ;
+; WIDTH          ; 1              ; Untyped                                                     ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                                     ;
+; CBXI_PARAMETER ; shift_taps_e6m ; Untyped                                                     ;
++----------------+----------------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; altshift_taps Parameter Settings by Entity Instance                       ;
++----------------------------+----------------------------------------------+
+; Name                       ; Value                                        ;
++----------------------------+----------------------------------------------+
+; Number of entity instances ; 3                                            ;
+; Entity Instance            ; control:control|altshift_taps:hs_delay_rtl_0 ;
+;     -- NUMBER_OF_TAPS      ; 1                                            ;
+;     -- TAP_DISTANCE        ; 76                                           ;
+;     -- WIDTH               ; 1                                            ;
+; Entity Instance            ; control:control|altshift_taps:vs_delay_rtl_0 ;
+;     -- NUMBER_OF_TAPS      ; 1                                            ;
+;     -- TAP_DISTANCE        ; 75                                           ;
+;     -- WIDTH               ; 1                                            ;
+; Entity Instance            ; control:control|altshift_taps:de_delay_rtl_0 ;
+;     -- NUMBER_OF_TAPS      ; 1                                            ;
+;     -- TAP_DISTANCE        ; 74                                           ;
+;     -- WIDTH               ; 1                                            ;
++----------------------------+----------------------------------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden6" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden5" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden4" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden3" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden2" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden1" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "neuron:hidden0" ;
++------+-------+----------+------------------+
+; Port ; Type  ; Severity ; Details          ;
++------+-------+----------+------------------+
+; sp_3 ; Input ; Info     ; Stuck at GND     ;
+; sp_4 ; Input ; Info     ; Stuck at GND     ;
+; sp_5 ; Input ; Info     ; Stuck at GND     ;
+; sp_6 ; Input ; Info     ; Stuck at GND     ;
++------+-------+----------+------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "gen_input:pseudo_random" ;
++-------------+-------+----------+--------------------+
+; Port        ; Type  ; Severity ; Details            ;
++-------------+-------+----------+--------------------+
+; r_st[31..8] ; Input ; Info     ; Stuck at GND       ;
+; g_st[31..8] ; Input ; Info     ; Stuck at GND       ;
+; b_st[31..8] ; Input ; Info     ; Stuck at GND       ;
++-------------+-------+----------+--------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 63                          ;
+; cycloneiii_ff         ; 646                         ;
+;     ENA               ; 2                           ;
+;     SCLR              ; 232                         ;
+;     plain             ; 412                         ;
+; cycloneiii_lcell_comb ; 943                         ;
+;     arith             ; 654                         ;
+;         2 data inputs ; 88                          ;
+;         3 data inputs ; 566                         ;
+;     normal            ; 289                         ;
+;         0 data inputs ; 6                           ;
+;         1 data inputs ; 12                          ;
+;         2 data inputs ; 136                         ;
+;         3 data inputs ; 16                          ;
+;         4 data inputs ; 119                         ;
+; cycloneiii_ram_block  ; 3                           ;
+;                       ;                             ;
+; Max LUT depth         ; 12.30                       ;
+; Average LUT depth     ; 7.53                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:04     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Processing started: Thu Mar 13 14:07:10 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off snn -c snn_rgb
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file snn/snn_rgb.vhd
+    Info (12022): Found design unit 1: snn_rgb-behave File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 37
+    Info (12023): Found entity 1: snn_rgb File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file snn/sim_snn_rgb.vhd
+    Info (12022): Found design unit 1: sim_snn_rgb-sim File: E:/IIT Madras/ns_snn_ann/snn_power/snn/sim_snn_rgb.vhd Line: 22
+    Info (12023): Found entity 1: sim_snn_rgb File: E:/IIT Madras/ns_snn_ann/snn_power/snn/sim_snn_rgb.vhd Line: 19
+Info (12021): Found 2 design units, including 1 entities, in source file snn/neuron.vhd
+    Info (12022): Found design unit 1: neuron-behave File: E:/IIT Madras/ns_snn_ann/snn_power/snn/neuron.vhd Line: 36
+    Info (12023): Found entity 1: neuron File: E:/IIT Madras/ns_snn_ann/snn_power/snn/neuron.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file snn/gen_input.vhd
+    Info (12022): Found design unit 1: gen_input-behave File: E:/IIT Madras/ns_snn_ann/snn_power/snn/gen_input.vhd Line: 23
+    Info (12023): Found entity 1: gen_input File: E:/IIT Madras/ns_snn_ann/snn_power/snn/gen_input.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file snn/control.vhd
+    Info (12022): Found design unit 1: control-behave File: E:/IIT Madras/ns_snn_ann/snn_power/snn/control.vhd Line: 21
+    Info (12023): Found entity 1: control File: E:/IIT Madras/ns_snn_ann/snn_power/snn/control.vhd Line: 5
+Info (12127): Elaborating entity "snn_rgb" for the top level hierarchy
+Info (12128): Elaborating entity "control" for hierarchy "control:control" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 76
+Info (12128): Elaborating entity "gen_input" for hierarchy "gen_input:pseudo_random" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 93
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden0" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 104
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden1" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 118
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden2" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 132
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden3" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 146
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden4" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 160
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden5" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 174
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:hidden6" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 188
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:output0" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 202
+Info (12128): Elaborating entity "neuron" for hierarchy "neuron:output1" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 224
+Info (19000): Inferred 3 megafunctions from design logic
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "control:control|hs_delay_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 76
+        Info (286033): Parameter WIDTH set to 1
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "control:control|vs_delay_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 75
+        Info (286033): Parameter WIDTH set to 1
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "control:control|de_delay_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 74
+        Info (286033): Parameter WIDTH set to 1
+Info (12130): Elaborated megafunction instantiation "control:control|altshift_taps:hs_delay_rtl_0"
+Info (12133): Instantiated megafunction "control:control|altshift_taps:hs_delay_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "76"
+    Info (12134): Parameter "WIDTH" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_g6m.tdf
+    Info (12023): Found entity 1: shift_taps_g6m File: E:/IIT Madras/ns_snn_ann/snn_power/db/shift_taps_g6m.tdf Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ge81.tdf
+    Info (12023): Found entity 1: altsyncram_ge81 File: E:/IIT Madras/ns_snn_ann/snn_power/db/altsyncram_ge81.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_3rf.tdf
+    Info (12023): Found entity 1: cntr_3rf File: E:/IIT Madras/ns_snn_ann/snn_power/db/cntr_3rf.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_tgc.tdf
+    Info (12023): Found entity 1: cmpr_tgc File: E:/IIT Madras/ns_snn_ann/snn_power/db/cmpr_tgc.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "control:control|altshift_taps:vs_delay_rtl_0"
+Info (12133): Instantiated megafunction "control:control|altshift_taps:vs_delay_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "75"
+    Info (12134): Parameter "WIDTH" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_f6m.tdf
+    Info (12023): Found entity 1: shift_taps_f6m File: E:/IIT Madras/ns_snn_ann/snn_power/db/shift_taps_f6m.tdf Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ee81.tdf
+    Info (12023): Found entity 1: altsyncram_ee81 File: E:/IIT Madras/ns_snn_ann/snn_power/db/altsyncram_ee81.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_2rf.tdf
+    Info (12023): Found entity 1: cntr_2rf File: E:/IIT Madras/ns_snn_ann/snn_power/db/cntr_2rf.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "control:control|altshift_taps:de_delay_rtl_0"
+Info (12133): Instantiated megafunction "control:control|altshift_taps:de_delay_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "74"
+    Info (12134): Parameter "WIDTH" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_e6m.tdf
+    Info (12023): Found entity 1: shift_taps_e6m File: E:/IIT Madras/ns_snn_ann/snn_power/db/shift_taps_e6m.tdf Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ce81.tdf
+    Info (12023): Found entity 1: altsyncram_ce81 File: E:/IIT Madras/ns_snn_ann/snn_power/db/altsyncram_ce81.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_1rf.tdf
+    Info (12023): Found entity 1: cntr_1rf File: E:/IIT Madras/ns_snn_ann/snn_power/db/cntr_1rf.tdf Line: 28
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "led[0]" is stuck at GND File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 33
+    Warning (13410): Pin "led[1]" is stuck at GND File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 33
+    Warning (13410): Pin "led[2]" is stuck at GND File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 33
+Info (286030): Timing-Driven Synthesis is running
+Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "neuron:hidden3|tmp_sum_b_0_1_2[6]~11" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/neuron.vhd Line: 61
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 4 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "reset_n" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 15
+    Warning (15610): No output dependent on input pin "enable_in[0]" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 16
+    Warning (15610): No output dependent on input pin "enable_in[1]" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 16
+    Warning (15610): No output dependent on input pin "enable_in[2]" File: E:/IIT Madras/ns_snn_ann/snn_power/snn/snn_rgb.vhd Line: 16
+Info (21057): Implemented 1175 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 32 input pins
+    Info (21059): Implemented 31 output pins
+    Info (21061): Implemented 1109 logic cells
+    Info (21064): Implemented 3 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 4940 megabytes
+    Info: Processing ended: Thu Mar 13 14:07:31 2025
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:32
+
+

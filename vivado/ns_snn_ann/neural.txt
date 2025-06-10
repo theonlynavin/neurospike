@@ -1,0 +1,10 @@
+counter:        40 neuron_out:      -64357877328804 activation function:0
+counter:        40 neuron_out:     -272449377748884 activation function:0
+counter:        40 neuron_out:      135540865661415 activation function:0
+counter:        40 neuron_out:      156376596886630 activation function:0
+counter:        40 neuron_out:     -111748970857702 activation function:0
+counter:        40 neuron_out:      140393791789491 activation function:0
+counter:        40 neuron_out:      -14556851841625 activation function:0
+counter:        40 neuron_out:     -344439735573001 activation function:0
+counter:        40 neuron_out:      208240145532675 activation function:0
+counter:        40 neuron_out:      -46918799797085 activation function:0

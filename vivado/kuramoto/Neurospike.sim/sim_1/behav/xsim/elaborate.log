@@ -1,0 +1,33 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_oscillator_behav xil_defaultlib.testbench_oscillator xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/IIT Madras/Neurospike/Neurospike.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "E:/IIT Madras/Neurospike/Neurospike.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.partial_mod_2pi
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.wallace_8bit
+Compiling module xil_defaultlib.g2bits
+Compiling module xil_defaultlib.p2bits
+Compiling module xil_defaultlib.brentkung_32bit_default
+Compiling module xil_defaultlib.brentkung_64bit
+Compiling module xil_defaultlib.wallace_32bit
+Compiling module xil_defaultlib.Q8_24_multiplier
+Compiling module xil_defaultlib.Q8_24_negate
+Compiling module xil_defaultlib.place_quadrant
+Compiling module xil_defaultlib.cordic
+Compiling module xil_defaultlib.trigonometry
+Compiling module xil_defaultlib.Q8_24_adder
+Compiling module xil_defaultlib.oscillator_step
+Compiling module xil_defaultlib.oscillator_solver
+Compiling module xil_defaultlib.testbench_oscillator
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_oscillator_behav
